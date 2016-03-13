@@ -39,7 +39,7 @@ koju procjenjuje osoblje hotela zaduženo za održavanje sobe.
 
 ###**5.Ispunjavanje zahtjeva od strane gosta**
 Potrebne informacije, gost hotela dobiva pomoću aplikacije. Također, putem aplikacije gost hotela može izvršiti određene narudžbe. 
-Isporuku do sobe hotela vrši adekvatno hotelsko osoblje.(dostavljač)
+Isporuku do sobe hotela vrši adekvatno hotelsko osoblje.
 
 ###**6.Obračun troška**
 U obračun troška ulazi broj dana provedenih u hotelu, posebni zahtjevi gosta upućenih putem aplikacije kao i eventualne stete. Prilikom napuštanja hotela, gost 
