@@ -1,4 +1,4 @@
-#**Hotelski smještaj**
+﻿#**Hotelski smještaj**
 <br />
 <br /> Članovi tima:
 <br /> 1. Merima Komić 
@@ -7,6 +7,8 @@
 <br /> 4. Amina Mahmutović
  
 ## **Opis teme**
+
+Dodao sam liniju.
 
 Izabrana tema „Hotelski smještaj“ predstavlja projektno rješenje koje kao korisnika uzima hotelsku grupaciju. 
 Sama tema hotelski smještaj bazirana je na interakciji korisnika sistema 
