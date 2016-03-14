@@ -8,8 +8,6 @@
  
 ## **Opis teme**
 
-Dodao sam liniju.
-
 Izabrana tema „Hotelski smještaj“ predstavlja projektno rješenje koje kao korisnika uzima hotelsku grupaciju. 
 Sama tema hotelski smještaj bazirana je na interakciji korisnika sistema 
 (koji je u ovom slučaju izabrana grupacija hotela) i njihovih potencijalnih gostiju.
