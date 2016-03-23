@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="Medina" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 11px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="Ocjenjivanje hotela" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="65535" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UseStateNameTab="false">
+				<DefaultHtmlDocFont Family="Dialog" Size="11" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<OfficeExchangeOptions GenerateBlankModel="false" GenerateTableOfContent="true" InsertPageBreak="true"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="8NF1BcqGAqAACwcW" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="iNF1BcqGAqAACwcX" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="iNF1BcqGAqAACwcY" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="iNF1BcqGAqAACwcZ" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="iNF1BcqGAqAACwca" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType Documentation_plain="" Id="05F1BcqGAqAACwUc" Name="boolean" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.443" PmLastModified="2016-03-23T00:42:20.331" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="s5F1BcqGAqAACwUd" Name="byte" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.445" PmLastModified="2016-03-23T00:42:20.341" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="c5F1BcqGAqAACwUe" Name="char" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.446" PmLastModified="2016-03-23T00:42:20.345" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="c5F1BcqGAqAACwUf" Name="double" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.446" PmLastModified="2016-03-23T00:42:20.345" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="c5F1BcqGAqAACwUg" Name="float" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.446" PmLastModified="2016-03-23T00:42:20.345" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="85F1BcqGAqAACwUh" Name="int" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.447" PmLastModified="2016-03-23T00:42:20.300" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="C5F1BcqGAqAACwUi" Name="long" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.448" PmLastModified="2016-03-23T00:42:20.323" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="C5F1BcqGAqAACwUj" Name="short" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.448" PmLastModified="2016-03-23T00:42:20.322" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="i5F1BcqGAqAACwUk" Name="void" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.449" PmLastModified="2016-03-23T00:42:20.358" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="i5F1BcqGAqAACwUl" Name="string" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.449" PmLastModified="2016-03-23T00:42:20.358" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<WSDLContainer Id="i5F1BcqGAqAACwUm" Name="WSDLContainer">
+			<ModelChildren>
+				<XSDSchema AttributeFormDefault="unspecified" Documentation_plain="" ElementFormDefault="unspecified" Id="y5F1BcqGAqAACwUn" Import="false" Name="http://www.w3.org/2001/XMLSchema" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.451" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" TargetNamespace="http://www.w3.org/2001/XMLSchema" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<XSDSimpleType Documentation_plain="" Id="K5F1BcqGAqAACwUo" Import="false" Name="ENTITIES" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.452" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="K5F1BcqGAqAACwUp" Import="false" Name="ENTITY" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.452" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="K5F1BcqGAqAACwUq" Import="false" Name="ID" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.452" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="K5F1BcqGAqAACwUr" Import="false" Name="IDREF" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.452" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="q5F1BcqGAqAACwUs" Import="false" Name="IDREFS" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.453" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="q5F1BcqGAqAACwUt" Import="false" Name="NCName" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.453" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="a5F1BcqGAqAACwUu" Import="false" Name="NMTOKEN" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.454" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="a5F1BcqGAqAACwUv" Import="false" Name="NMTOKENS" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.454" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="a5F1BcqGAqAACwUw" Import="false" Name="NOTATION" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.454" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="a5F1BcqGAqAACwUx" Import="false" Name="Name" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.454" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="65F1BcqGAqAACwUy" Import="false" Name="QName" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.455" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="65F1BcqGAqAACwUz" Import="false" Name="anyURI" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.455" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="65F1BcqGAqAACwU0" Import="false" Name="base64Binary" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.455" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="65F1BcqGAqAACwU1" Import="false" Name="boolean" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.455" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="65F1BcqGAqAACwU2" Import="false" Name="byte" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.455" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="G5F1BcqGAqAACwU3" Import="false" Name="date" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.456" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="G5F1BcqGAqAACwU4" Import="false" Name="dateTime" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.456" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="G5F1BcqGAqAACwU5" Import="false" Name="decimal" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.456" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="G5F1BcqGAqAACwU6" Import="false" Name="double" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.456" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="m5F1BcqGAqAACwU7" Import="false" Name="duration" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.457" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="m5F1BcqGAqAACwU8" Import="false" Name="float" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.457" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="m5F1BcqGAqAACwU9" Import="false" Name="gDay" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.457" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="m5F1BcqGAqAACwU." Import="false" Name="gMonth" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.457" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="m5F1BcqGAqAACwU_" Import="false" Name="gMonthDay" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.457" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="W5F1BcqGAqAACwVA" Import="false" Name="gYear" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.458" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="W5F1BcqGAqAACwVB" Import="false" Name="gYearMonth" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.458" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="W5F1BcqGAqAACwVC" Import="false" Name="hexBinary" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.458" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="W5F1BcqGAqAACwVD" Import="false" Name="int" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.458" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="W5F1BcqGAqAACwVE" Import="false" Name="integer" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.458" PmLastModified="2016-03-23T00:42:20.356" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="25F1BcqGAqAACwVF" Import="false" Name="language" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.459" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="25F1BcqGAqAACwVG" Import="false" Name="long" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.459" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="25F1BcqGAqAACwVH" Import="false" Name="negativeInteger" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.459" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="25F1BcqGAqAACwVI" Import="false" Name="nonNegativeInteger" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.459" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="25F1BcqGAqAACwVJ" Import="false" Name="nonPositiveInteger" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.459" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="O5F1BcqGAqAACwVK" Import="false" Name="normalizedString" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.460" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="O5F1BcqGAqAACwVL" Import="false" Name="positiveInteger" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.460" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="O5F1BcqGAqAACwVM" Import="false" Name="short" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.460" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="O5F1BcqGAqAACwVN" Import="false" Name="string" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.460" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="O5F1BcqGAqAACwVO" Import="false" Name="time" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.460" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="u5F1BcqGAqAACwVP" Import="false" Name="token" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.461" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="u5F1BcqGAqAACwVQ" Import="false" Name="unsignedByte" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.461" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="u5F1BcqGAqAACwVR" Import="false" Name="unsignedInt" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.461" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="u5F1BcqGAqAACwVS" Import="false" Name="unsignedLong" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.461" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<XSDSimpleType Documentation_plain="" Id="u5F1BcqGAqAACwVT" Import="false" Name="unsignedShort" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.461" PmLastModified="2016-03-23T00:42:20.357" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</XSDSchema>
+			</ModelChildren>
+		</WSDLContainer>
+		<PMStatusContainer Id="e5F1BcqGAqAACwVU" Name="">
+			<ModelChildren>
+				<PMStatus Id="e5F1BcqGAqAACwVV" Name="Proposed"/>
+				<PMStatus Id=".5F1BcqGAqAACwVW" Name="Approved"/>
+				<PMStatus Id=".5F1BcqGAqAACwVX" Name="Planned"/>
+				<PMStatus Id="B5F1BcqGAqAACwVY" Name="Designed"/>
+				<PMStatus Id="B5F1BcqGAqAACwVZ" Name="Implemented"/>
+				<PMStatus Id="h5F1BcqGAqAACwVa" Name="Tested"/>
+				<PMStatus Id="h5F1BcqGAqAACwVb" Name="Deployed"/>
+			</ModelChildren>
+		</PMStatusContainer>
+		<PMDifficultyContainer Id="R5F1BcqGAqAACwVc" Name="">
+			<ModelChildren>
+				<PMDifficulty Id="R5F1BcqGAqAACwVd" Name="Easy"/>
+				<PMDifficulty Id="x5F1BcqGAqAACwVe" Name="Medium"/>
+				<PMDifficulty Id="x5F1BcqGAqAACwVf" Name="Difficult"/>
+			</ModelChildren>
+		</PMDifficultyContainer>
+		<PMPriorityContainer Id="J5F1BcqGAqAACwVg" Name="">
+			<ModelChildren>
+				<PMPriority Id="J5F1BcqGAqAACwVh" Name="Low"/>
+				<PMPriority Id="p5F1BcqGAqAACwVi" Name="Medium"/>
+				<PMPriority Id="p5F1BcqGAqAACwVj" Name="High"/>
+			</ModelChildren>
+		</PMPriorityContainer>
+		<PMVersionContainer Id="Z5F1BcqGAqAACwVk" Name="">
+			<ModelChildren>
+				<PMVersion Id="Z5F1BcqGAqAACwVl" Name="1.0"/>
+				<PMVersion Id="Z5F1BcqGAqAACwVm" Name="2.0"/>
+			</ModelChildren>
+		</PMVersionContainer>
+		<PMIterationContainer Id="55F1BcqGAqAACwVn" Name="">
+			<ModelChildren>
+				<PMIteration Id="55F1BcqGAqAACwVo" Name="Iteration 1"/>
+				<PMIteration Id="F5F1BcqGAqAACwVp" Name="Iteration 2"/>
+			</ModelChildren>
+		</PMIterationContainer>
+		<PMPhaseContainer Id="F5F1BcqGAqAACwVq" Name="">
+			<ModelChildren>
+				<PMPhase Id="F5F1BcqGAqAACwVr" Name="Inception"/>
+				<PMPhase Id="l5F1BcqGAqAACwVs" Name="Elaboration"/>
+				<PMPhase Id="l5F1BcqGAqAACwVt" Name="Construction"/>
+				<PMPhase Id="V5F1BcqGAqAACwVu" Name="Transition"/>
+			</ModelChildren>
+		</PMPhaseContainer>
+		<PMDisciplineContainer Id="V5F1BcqGAqAACwVv" Name="">
+			<ModelChildren>
+				<PMDiscipline Id="V5F1BcqGAqAACwVw" Name="Business Modeling"/>
+				<PMDiscipline Id="15F1BcqGAqAACwVx" Name="Requirements"/>
+				<PMDiscipline Id="N5F1BcqGAqAACwVy" Name="Analysis &amp; Design"/>
+				<PMDiscipline Id="N5F1BcqGAqAACwVz" Name="Implementation"/>
+				<PMDiscipline Id="t5F1BcqGAqAACwV0" Name="Testing"/>
+				<PMDiscipline Id="d5F1BcqGAqAACwV1" Name="QA &amp; Maintenance"/>
+			</ModelChildren>
+		</PMDisciplineContainer>
+		<PMAuthorContainer DefaultValue="95F1BcqGAqAACwV3" Id="95F1BcqGAqAACwV2" Name="">
+			<ModelChildren>
+				<ValueSpecification Documentation_plain="" Id="95F1BcqGAqAACwV3" Name="Medina" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.479" PmLastModified="2016-03-23T00:42:20.338" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ModelChildren>
+		</PMAuthorContainer>
+		<BRKeywords Documentation_plain="" Id="95F1BcqGAqAACwV4" Name="" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.479" PmLastModified="2016-03-23T00:42:20.337" QualityScore="-1" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<BRKeyword Documentation_plain="" Id="D5F1BcqGAqAACwV5" Name="must" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.480" PmLastModified="2016-03-23T00:42:20.303" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="D5F1BcqGAqAACwV6" Name="must be" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.480" PmLastModified="2016-03-23T00:42:20.303" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="j5F1BcqGAqAACwV7" Name="if" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.481" PmLastModified="2016-03-23T00:42:20.338" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="j5F1BcqGAqAACwV8" Name="when" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.481" PmLastModified="2016-03-23T00:42:20.338" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="T5F1BcqGAqAACwV9" Name="must not" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.482" PmLastModified="2016-03-23T00:42:20.353" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="z5F1BcqGAqAACwV." Name="only" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.483" PmLastModified="2016-03-23T00:42:20.316" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="L5F1BcqGAqAACwV_" Name="may" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.484" PmLastModified="2016-03-23T00:42:20.325" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="L5F1BcqGAqAACwWA" Name="may not" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.484" PmLastModified="2016-03-23T00:42:20.325" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="r5F1BcqGAqAACwWB" Name="need" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.485" PmLastModified="2016-03-23T00:42:20.362" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BRKeyword Documentation_plain="" Id="b5F1BcqGAqAACwWC" Name="need not" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.486" PmLastModified="2016-03-23T00:42:20.310" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ModelChildren>
+		</BRKeywords>
+		<ChartTypeContainer Documentation_plain="" Id="b5F1BcqGAqAACwWD" Name="ChartTypeContainer" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.486" PmLastModified="2016-03-23T00:42:20.310" QualityScore="-1" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<ChartType Documentation_plain="" Id="75F1BcqGAqAACwWE" Name="RACI" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.487" PmLastModified="2016-03-23T00:42:20.321" QualityScore="-1" UserIDLastNumericValue="0">
+					<Codes>
+						<ChartCode Code="R" Color="-1" Documentation_plain="" Id="75F1BcqGAqAACwWF" Name="Responsible" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.487" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<ChartCode Code="A" Color="-1" Documentation_plain="" Id="75F1BcqGAqAACwWG" Name="Accountable" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.487" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<ChartCode Code="C" Color="-1" Documentation_plain="" Id="75F1BcqGAqAACwWH" Name="Consulted" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.487" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<ChartCode Code="I" Color="-1" Documentation_plain="" Id="H5F1BcqGAqAACwWI" Name="Informed" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.488" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Codes>
+				</ChartType>
+				<ChartType Documentation_plain="" Id="H5F1BcqGAqAACwWJ" Name="CRUD" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.488" PmLastModified="2016-03-23T00:42:20.350" QualityScore="-1" UserIDLastNumericValue="0">
+					<Codes>
+						<ChartCode Code="C" Color="-1" Documentation_plain="" Id="n5F1BcqGAqAACwWK" Name="Create" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.489" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<ChartCode Code="R" Color="-1" Documentation_plain="" Id="n5F1BcqGAqAACwWL" Name="Read" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.489" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<ChartCode Code="U" Color="-1" Documentation_plain="" Id="n5F1BcqGAqAACwWM" Name="Update" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.489" QualityScore="-1" UserIDLastNumericValue="0"/>
+						<ChartCode Code="D" Color="-1" Documentation_plain="" Id="n5F1BcqGAqAACwWN" Name="Delete" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.489" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Codes>
+				</ChartType>
+			</ModelChildren>
+		</ChartTypeContainer>
+		<BMMInfluencerCategoryContainer Id="n5F1BcqGAqAACwWO" Name="">
+			<InternalInfluencerCategories>
+				<BMMInfluencerCategory Idref="f5F1BcqGAqAACwWW" Name="Assumption"/>
+				<BMMInfluencerCategory Idref="_5F1BcqGAqAACwWX" Name="Corporate"/>
+				<BMMInfluencerCategory Idref="_5F1BcqGAqAACwWY" Name="Explicit Value"/>
+				<BMMInfluencerCategory Idref="AFF1BcqGAqAACwWZ" Name="Implicit Value"/>
+				<BMMInfluencerCategory Idref="gFF1BcqGAqAACwWa" Name="Habit"/>
+				<BMMInfluencerCategory Idref="gFF1BcqGAqAACwWb" Name="Infrastructure"/>
+				<BMMInfluencerCategory Idref="QFF1BcqGAqAACwWc" Name="Issue"/>
+				<BMMInfluencerCategory Idref="wFF1BcqGAqAACwWd" Name="Management"/>
+				<BMMInfluencerCategory Idref="IFF1BcqGAqAACwWe" Name="Resource"/>
+			</InternalInfluencerCategories>
+			<ExternalInfluencerCategories>
+				<BMMInfluencerCategory Idref="X5F1BcqGAqAACwWP" Name="Competitor"/>
+				<BMMInfluencerCategory Idref="X5F1BcqGAqAACwWQ" Name="Customer"/>
+				<BMMInfluencerCategory Idref="35F1BcqGAqAACwWR" Name="Environment"/>
+				<BMMInfluencerCategory Idref="P5F1BcqGAqAACwWS" Name="Partner"/>
+				<BMMInfluencerCategory Idref="P5F1BcqGAqAACwWT" Name="Regulation"/>
+				<BMMInfluencerCategory Idref="v5F1BcqGAqAACwWU" Name="Supplier"/>
+				<BMMInfluencerCategory Idref="v5F1BcqGAqAACwWV" Name="Technology"/>
+			</ExternalInfluencerCategories>
+			<ModelChildren>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;A rival enterprise in a struggle for advantage over the subject enterprise.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="A rival enterprise in a struggle for advantage over the subject enterprise." Id="X5F1BcqGAqAACwWP" Name="Competitor" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.490" PmLastModified="2016-03-23T00:42:20.323" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;A role played by an individual or enterprise that has investigated, ordered, received, or paid for products or services from the subject enterprise.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="A role played by an individual or enterprise that has investigated, ordered, received, or paid for products or services from the subject enterprise." Id="X5F1BcqGAqAACwWQ" Name="Customer" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.490" PmLastModified="2016-03-23T00:42:20.323" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;The aggregate of surrounding conditions or Influencers affecting the existence or development of an enterprise.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="The aggregate of surrounding conditions or Influencers affecting the existence or development of an enterprise." Id="35F1BcqGAqAACwWR" Name="Environment" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.491" PmLastModified="2016-03-23T00:42:20.341" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;An enterprise that shares risks and profit with the subject enterprise (or is associated with the subject enterprise to share risks and profit) because this is mutually beneficial.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="An enterprise that shares risks and profit with the subject enterprise (or is associated with the subject enterprise to share risks and profit) because this is mutually beneficial." Id="P5F1BcqGAqAACwWS" Name="Partner" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.492" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;An order prescribed by an authority such as a government body or the management of an enterprise.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="An order prescribed by an authority such as a government body or the management of an enterprise." Id="P5F1BcqGAqAACwWT" Name="Regulation" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.492" PmLastModified="2016-03-23T00:42:20.293" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;A role played by an individual or enterprise that can furnish or provide products or services to the subject enterprise.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="A role played by an individual or enterprise that can furnish or provide products or services to the subject enterprise." Id="v5F1BcqGAqAACwWU" Name="Supplier" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.493" PmLastModified="2016-03-23T00:42:20.333" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;The role of technology, including its developments and limitations — there may be prerequisites for use of technology; there may be enterprise activity that technology enables or restricts.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="The role of technology, including its developments and limitations — there may be prerequisites for use of technology; there may be enterprise activity that technology enables or restricts." Id="v5F1BcqGAqAACwWV" Name="Technology" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.493" PmLastModified="2016-03-23T00:42:20.332" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Something that is taken for granted or without proof.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Something that is taken for granted or without proof." Id="f5F1BcqGAqAACwWW" Name="Assumption" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.494" PmLastModified="2016-03-23T00:42:20.360" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Value An ideal, custom, or institution that an enterprise promotes or agrees with (either positive or negative).&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Value An ideal, custom, or institution that an enterprise promotes or agrees with (either positive or negative)." Id="_5F1BcqGAqAACwWX" Name="Corporate" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.495" PmLastModified="2016-03-23T00:42:20.369" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;A Corporate Value explicitly set forth and declared.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="A Corporate Value explicitly set forth and declared." Id="_5F1BcqGAqAACwWY" Name="Explicit Value" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.495" PmLastModified="2016-03-23T00:42:20.369" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;A Corporate Value not explicitly declared but nonetheless understood by some or all of the people in an enterprise.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="A Corporate Value not explicitly declared but nonetheless understood by some or all of the people in an enterprise." Id="AFF1BcqGAqAACwWZ" Name="Implicit Value" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.496" PmLastModified="2016-03-23T00:42:20.329" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;A customary practice or use.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="A customary practice or use." Id="gFF1BcqGAqAACwWa" Name="Habit" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.497" PmLastModified="2016-03-23T00:42:20.367" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;The basic underlying framework or features of a system.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="The basic underlying framework or features of a system." Id="gFF1BcqGAqAACwWb" Name="Infrastructure" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.497" PmLastModified="2016-03-23T00:42:20.367" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;A point in question or a matter that is in dispute as between contending partners.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="A point in question or a matter that is in dispute as between contending partners." Id="QFF1BcqGAqAACwWc" Name="Issue" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.498" PmLastModified="2016-03-23T00:42:20.325" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Prerogative A right or privilege exercised by virtue of ownership or position in an enterprise.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Prerogative A right or privilege exercised by virtue of ownership or position in an enterprise." Id="wFF1BcqGAqAACwWd" Name="Management" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.499" PmLastModified="2016-03-23T00:42:20.364" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMInfluencerCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;The resources available for carrying out the business of an enterprise, especially their&#9;quality.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="The resources available for carrying out the business of an enterprise, especially their&#9;quality." Id="IFF1BcqGAqAACwWe" Name="Resource" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.500" PmLastModified="2016-03-23T00:42:20.353" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ModelChildren>
+		</BMMInfluencerCategoryContainer>
+		<BMMBusinessRuleEnforcementLevelContainer Id="IFF1BcqGAqAACwWf" Name="">
+			<ModelChildren>
+				<BMMBusinessRuleEnforcementLevel Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;If the rule is violated, the penalty is always applied.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="If the rule is violated, the penalty is always applied." Id="IFF1BcqGAqAACwWg" Name="Strictly enforced" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.500" PmLastModified="2016-03-23T00:42:20.353" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMBusinessRuleEnforcementLevel Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Strictly enforced, but enforcement may be delayed (e.g., waiting for resource with required skills).&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Strictly enforced, but enforcement may be delayed (e.g., waiting for resource with required skills)." Id="oFF1BcqGAqAACwWh" Name="Deferred enforcement" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.501" PmLastModified="2016-03-23T00:42:20.313" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMBusinessRuleEnforcementLevel Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Enforced, but exceptions allowed, with prior approval for actors with before-the-fact override authorization.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Enforced, but exceptions allowed, with prior approval for actors with before-the-fact override authorization." Id="YFF1BcqGAqAACwWi" Name="Pre-authorized override" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.502" PmLastModified="2016-03-23T00:42:20.351" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMBusinessRuleEnforcementLevel Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;If not approved after the fact, you may be subject to sanction or other consequences.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="If not approved after the fact, you may be subject to sanction or other consequences." Id="YFF1BcqGAqAACwWj" Name="Post-justified override" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.502" PmLastModified="2016-03-23T00:42:20.351" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMBusinessRuleEnforcementLevel Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Comment must be provided when the violation occurs.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Comment must be provided when the violation occurs." Id="4FF1BcqGAqAACwWk" Name="Override with explanation" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.503" PmLastModified="2016-03-23T00:42:20.346" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMBusinessRuleEnforcementLevel Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Suggested, but not enforced&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Suggested, but not enforced" Id="4FF1BcqGAqAACwWl" Name="Guideline" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.503" PmLastModified="2016-03-23T00:42:20.346" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ModelChildren>
+		</BMMBusinessRuleEnforcementLevelContainer>
+		<BMMAssetCategoryContainer Id="EFF1BcqGAqAACwWm" Name="">
+			<ModelChildren>
+				<BMMAssetCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Things that are kept long-term, maintained, reused, and perhaps eventually replaced. They can be tangible, such as equipment and buildings, or intangible, such as patents and licenses.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Things that are kept long-term, maintained, reused, and perhaps eventually replaced. They can be tangible, such as equipment and buildings, or intangible, such as patents and licenses." Id="EFF1BcqGAqAACwWn" Name="Fixed Assets" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.504" PmLastModified="2016-03-23T00:42:20.299" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMAssetCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Things that are consumed and replenished, such as raw materials, parts, finished goods, and cash.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Things that are consumed and replenished, such as raw materials, parts, finished goods, and cash." Id="kFF1BcqGAqAACwWo" Name="Resources" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.505" PmLastModified="2016-03-23T00:42:20.336" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMAssetCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;An Offering is a specification of a product or service - an intangible Fixed Asset.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="An Offering is a specification of a product or service - an intangible Fixed Asset." Id="kFF1BcqGAqAACwWp" Name="Offerings" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.505" PmLastModified="2016-03-23T00:42:20.335" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ModelChildren>
+		</BMMAssetCategoryContainer>
+		<BMMAssessmentCategoryContainer Id="UFF1BcqGAqAACwWq" Name="">
+			<ModelChildren>
+				<BMMAssessmentCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Some advantage or area of excellence within the enterprise that can impact its employment of Means or achievement of Ends.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Some advantage or area of excellence within the enterprise that can impact its employment of Means or achievement of Ends." Id="UFF1BcqGAqAACwWr" Name="Strength" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.506" PmLastModified="2016-03-23T00:42:20.295" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMAssessmentCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;Some area of inadequacy within the enterprise that can impact its employment of Means or achievement of Ends.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="Some area of inadequacy within the enterprise that can impact its employment of Means or achievement of Ends." Id="0FF1BcqGAqAACwWs" Name="Weakness" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.507" PmLastModified="2016-03-23T00:42:20.292" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMAssessmentCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;This category indicates that some Influencer can have a favorable impact on the organization's employment of Means or achievement of Ends.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="This category indicates that some Influencer can have a favorable impact on the organization's employment of Means or achievement of Ends." Id="0FF1BcqGAqAACwWt" Name="Opportunity" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.507" PmLastModified="2016-03-23T00:42:20.291" QualityScore="-1" UserIDLastNumericValue="0"/>
+				<BMMAssessmentCategory Documentation="&lt;HTML&gt;&lt;BODY&gt;&lt;p style=&quot;margin-top: 0&quot;&gt;This category indicates that some Influencer can have an unfavorable impact on the organization's employment of Means or achievement of Ends.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;" Documentation_plain="This category indicates that some Influencer can have an unfavorable impact on the organization's employment of Means or achievement of Ends." Id="MFF1BcqGAqAACwWu" Name="Threat" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.508" PmLastModified="2016-03-23T00:42:20.348" QualityScore="-1" UserIDLastNumericValue="0"/>
+			</ModelChildren>
+		</BMMAssessmentCategoryContainer>
+		<ProjectFormat ConnectorLineColor="-16777216" ConnectorLineModelCap="None" ConnectorLineModelStrokeNull="false" ConnectorLineTransparency="0" ConnectorLineWeight="1.0" DefaultCompartmentFontName="" DefaultCompartmentFontSize="0" DefaultCompartmentFontStyle="0" DefaultConnectorFontColor="-16777216" DefaultConnectorFontName="Dialog" DefaultConnectorFontSize="11" DefaultConnectorFontStyle="0" DefaultFontColor="-16777216" DefaultFontName="Dialog" DefaultFontSize="11" DefaultFontStyle="0" DefaultModelElementNameAlignment="9" DefaultShapeBackground="-8728587" DefaultShapeForeground="-16777216" GlobalConnectorFillColorModel="cFF1BcqGAqAACwWx" GlobalFillColorModel="cFF1BcqGAqAACwWw" Id="sFF1BcqGAqAACwWv" LineColor="-16777216" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name="ProjectFormat">
+			<FillColorModels>
+				<ProjectFillColorModel Idref="cFF1BcqGAqAACwWy" Name=""/>
+				<ProjectFillColorModel Idref="8FF1BcqGAqAACwWz" Name=""/>
+				<ProjectFillColorModel Idref="8FF1BcqGAqAACwW0" Name=""/>
+				<ProjectFillColorModel Idref="8FF1BcqGAqAACwW1" Name=""/>
+				<ProjectFillColorModel Idref="CFF1BcqGAqAACwW2" Name=""/>
+				<ProjectFillColorModel Idref="CFF1BcqGAqAACwW3" Name=""/>
+				<ProjectFillColorModel Idref="CFF1BcqGAqAACwW4" Name=""/>
+				<ProjectFillColorModel Idref="CFF1BcqGAqAACwW5" Name=""/>
+				<ProjectFillColorModel Idref="iFF1BcqGAqAACwW6" Name=""/>
+				<ProjectFillColorModel Idref="iFF1BcqGAqAACwW7" Name=""/>
+				<ProjectFillColorModel Idref="iFF1BcqGAqAACwW8" Name=""/>
+				<ProjectFillColorModel Idref="iFF1BcqGAqAACwW9" Name=""/>
+				<ProjectFillColorModel Idref="SFF1BcqGAqAACwW." Name=""/>
+				<ProjectFillColorModel Idref="SFF1BcqGAqAACwW_" Name=""/>
+				<ProjectFillColorModel Idref="SFF1BcqGAqAACwXA" Name=""/>
+				<ProjectFillColorModel Idref="yFF1BcqGAqAACwXB" Name=""/>
+				<ProjectFillColorModel Idref="yFF1BcqGAqAACwXC" Name=""/>
+				<ProjectFillColorModel Idref="yFF1BcqGAqAACwXD" Name=""/>
+				<ProjectFillColorModel Idref="yFF1BcqGAqAACwXE" Name=""/>
+				<ProjectFillColorModel Idref="KFF1BcqGAqAACwXF" Name=""/>
+				<ProjectFillColorModel Idref="KFF1BcqGAqAACwXG" Name=""/>
+				<ProjectFillColorModel Idref="KFF1BcqGAqAACwXH" Name=""/>
+				<ProjectFillColorModel Idref="qFF1BcqGAqAACwXI" Name=""/>
+				<ProjectFillColorModel Idref="qFF1BcqGAqAACwXJ" Name=""/>
+				<ProjectFillColorModel Idref="qFF1BcqGAqAACwXK" Name=""/>
+				<ProjectFillColorModel Idref="qFF1BcqGAqAACwXL" Name=""/>
+				<ProjectFillColorModel Idref="qFF1BcqGAqAACwXM" Name=""/>
+				<ProjectFillColorModel Idref="aFF1BcqGAqAACwXN" Name=""/>
+				<ProjectFillColorModel Idref="aFF1BcqGAqAACwXO" Name=""/>
+				<ProjectFillColorModel Idref="aFF1BcqGAqAACwXP" Name=""/>
+				<ProjectFillColorModel Idref="aFF1BcqGAqAACwXQ" Name=""/>
+				<ProjectFillColorModel Idref="6FF1BcqGAqAACwXR" Name=""/>
+				<ProjectFillColorModel Idref="6FF1BcqGAqAACwXS" Name=""/>
+				<ProjectFillColorModel Idref="6FF1BcqGAqAACwXT" Name=""/>
+				<ProjectFillColorModel Idref="6FF1BcqGAqAACwXU" Name=""/>
+				<ProjectFillColorModel Idref="GFF1BcqGAqAACwXV" Name=""/>
+				<ProjectFillColorModel Idref="GFF1BcqGAqAACwXW" Name=""/>
+				<ProjectFillColorModel Idref="GFF1BcqGAqAACwXX" Name=""/>
+				<ProjectFillColorModel Idref="GFF1BcqGAqAACwXY" Name=""/>
+				<ProjectFillColorModel Idref="mFF1BcqGAqAACwXZ" Name=""/>
+				<ProjectFillColorModel Idref="mFF1BcqGAqAACwXa" Name=""/>
+				<ProjectFillColorModel Idref="mFF1BcqGAqAACwXb" Name=""/>
+				<ProjectFillColorModel Idref="mFF1BcqGAqAACwXc" Name=""/>
+				<ProjectFillColorModel Idref="WFF1BcqGAqAACwXd" Name=""/>
+				<ProjectFillColorModel Idref="WFF1BcqGAqAACwXe" Name=""/>
+				<ProjectFillColorModel Idref="WFF1BcqGAqAACwXf" Name=""/>
+				<ProjectFillColorModel Idref="WFF1BcqGAqAACwXg" Name=""/>
+				<ProjectFillColorModel Idref="2FF1BcqGAqAACwXh" Name=""/>
+				<ProjectFillColorModel Idref="2FF1BcqGAqAACwXi" Name=""/>
+				<ProjectFillColorModel Idref="2FF1BcqGAqAACwXj" Name=""/>
+				<ProjectFillColorModel Idref="2FF1BcqGAqAACwXk" Name=""/>
+				<ProjectFillColorModel Idref="OFF1BcqGAqAACwXl" Name=""/>
+				<ProjectFillColorModel Idref="OFF1BcqGAqAACwXm" Name=""/>
+				<ProjectFillColorModel Idref="OFF1BcqGAqAACwXn" Name=""/>
+				<ProjectFillColorModel Idref="OFF1BcqGAqAACwXo" Name=""/>
+				<ProjectFillColorModel Idref="OFF1BcqGAqAACwXp" Name=""/>
+				<ProjectFillColorModel Idref="uFF1BcqGAqAACwXq" Name=""/>
+				<ProjectFillColorModel Idref="uFF1BcqGAqAACwXr" Name=""/>
+				<ProjectFillColorModel Idref="uFF1BcqGAqAACwXs" Name=""/>
+				<ProjectFillColorModel Idref="uFF1BcqGAqAACwXt" Name=""/>
+				<ProjectFillColorModel Idref="eFF1BcqGAqAACwXu" Name=""/>
+				<ProjectFillColorModel Idref="eFF1BcqGAqAACwXv" Name=""/>
+				<ProjectFillColorModel Idref="eFF1BcqGAqAACwXw" Name=""/>
+				<ProjectFillColorModel Idref="eFF1BcqGAqAACwXx" Name=""/>
+				<ProjectFillColorModel Idref=".FF1BcqGAqAACwXy" Name=""/>
+				<ProjectFillColorModel Idref=".FF1BcqGAqAACwXz" Name=""/>
+				<ProjectFillColorModel Idref=".FF1BcqGAqAACwX0" Name=""/>
+				<ProjectFillColorModel Idref=".FF1BcqGAqAACwX1" Name=""/>
+				<ProjectFillColorModel Idref="BFF1BcqGAqAACwX2" Name=""/>
+				<ProjectFillColorModel Idref="BFF1BcqGAqAACwX3" Name=""/>
+				<ProjectFillColorModel Idref="BFF1BcqGAqAACwX4" Name=""/>
+				<ProjectFillColorModel Idref="hFF1BcqGAqAACwX5" Name=""/>
+				<ProjectFillColorModel Idref="hFF1BcqGAqAACwX6" Name=""/>
+				<ProjectFillColorModel Idref="hFF1BcqGAqAACwX7" Name=""/>
+				<ProjectFillColorModel Idref="RFF1BcqGAqAACwX8" Name=""/>
+				<ProjectFillColorModel Idref="RFF1BcqGAqAACwX9" Name=""/>
+				<ProjectFillColorModel Idref="RFF1BcqGAqAACwX." Name=""/>
+				<ProjectFillColorModel Idref="RFF1BcqGAqAACwX_" Name=""/>
+				<ProjectFillColorModel Idref="xFF1BcqGAqAACwYA" Name=""/>
+				<ProjectFillColorModel Idref="xFF1BcqGAqAACwYB" Name=""/>
+				<ProjectFillColorModel Idref="xFF1BcqGAqAACwYC" Name=""/>
+				<ProjectFillColorModel Idref="xFF1BcqGAqAACwYD" Name=""/>
+				<ProjectFillColorModel Idref="xFF1BcqGAqAACwYE" Name=""/>
+				<ProjectFillColorModel Idref="JFF1BcqGAqAACwYF" Name=""/>
+				<ProjectFillColorModel Idref="JFF1BcqGAqAACwYG" Name=""/>
+				<ProjectFillColorModel Idref="JFF1BcqGAqAACwYH" Name=""/>
+				<ProjectFillColorModel Idref="JFF1BcqGAqAACwYI" Name=""/>
+				<ProjectFillColorModel Idref="pFF1BcqGAqAACwYJ" Name=""/>
+				<ProjectFillColorModel Idref="pFF1BcqGAqAACwYK" Name=""/>
+				<ProjectFillColorModel Idref="pFF1BcqGAqAACwYL" Name=""/>
+				<ProjectFillColorModel Idref="pFF1BcqGAqAACwYM" Name=""/>
+				<ProjectFillColorModel Idref="ZFF1BcqGAqAACwYN" Name=""/>
+				<ProjectFillColorModel Idref="ZFF1BcqGAqAACwYO" Name=""/>
+				<ProjectFillColorModel Idref="ZFF1BcqGAqAACwYP" Name=""/>
+				<ProjectFillColorModel Idref="ZFF1BcqGAqAACwYQ" Name=""/>
+				<ProjectFillColorModel Idref="5FF1BcqGAqAACwYR" Name=""/>
+				<ProjectFillColorModel Idref="5FF1BcqGAqAACwYS" Name=""/>
+				<ProjectFillColorModel Idref="5FF1BcqGAqAACwYT" Name=""/>
+				<ProjectFillColorModel Idref="5FF1BcqGAqAACwYU" Name=""/>
+				<ProjectFillColorModel Idref="FFF1BcqGAqAACwYV" Name=""/>
+				<ProjectFillColorModel Idref="FFF1BcqGAqAACwYW" Name=""/>
+				<ProjectFillColorModel Idref="FFF1BcqGAqAACwYX" Name=""/>
+				<ProjectFillColorModel Idref="FFF1BcqGAqAACwYY" Name=""/>
+				<ProjectFillColorModel Idref="FFF1BcqGAqAACwYZ" Name=""/>
+				<ProjectFillColorModel Idref="lFF1BcqGAqAACwYa" Name=""/>
+				<ProjectFillColorModel Idref="lFF1BcqGAqAACwYb" Name=""/>
+				<ProjectFillColorModel Idref="lFF1BcqGAqAACwYc" Name=""/>
+				<ProjectFillColorModel Idref="VFF1BcqGAqAACwYd" Name=""/>
+				<ProjectFillColorModel Idref="VFF1BcqGAqAACwYe" Name=""/>
+				<ProjectFillColorModel Idref="VFF1BcqGAqAACwYf" Name=""/>
+				<ProjectFillColorModel Idref="1FF1BcqGAqAACwYg" Name=""/>
+				<ProjectFillColorModel Idref="1FF1BcqGAqAACwYh" Name=""/>
+				<ProjectFillColorModel Idref="1FF1BcqGAqAACwYi" Name=""/>
+				<ProjectFillColorModel Idref="1FF1BcqGAqAACwYj" Name=""/>
+				<ProjectFillColorModel Idref="NFF1BcqGAqAACwYk" Name=""/>
+				<ProjectFillColorModel Idref="NFF1BcqGAqAACwYl" Name=""/>
+				<ProjectFillColorModel Idref="NFF1BcqGAqAACwYm" Name=""/>
+				<ProjectFillColorModel Idref="NFF1BcqGAqAACwYn" Name=""/>
+				<ProjectFillColorModel Idref="tFF1BcqGAqAACwYo" Name=""/>
+				<ProjectFillColorModel Idref="tFF1BcqGAqAACwYp" Name=""/>
+				<ProjectFillColorModel Idref="tFF1BcqGAqAACwYq" Name=""/>
+				<ProjectFillColorModel Idref="tFF1BcqGAqAACwYr" Name=""/>
+				<ProjectFillColorModel Idref="dFF1BcqGAqAACwYs" Name=""/>
+				<ProjectFillColorModel Idref="dFF1BcqGAqAACwYt" Name=""/>
+				<ProjectFillColorModel Idref="dFF1BcqGAqAACwYu" Name=""/>
+				<ProjectFillColorModel Idref="dFF1BcqGAqAACwYv" Name=""/>
+				<ProjectFillColorModel Idref="9FF1BcqGAqAACwYw" Name=""/>
+				<ProjectFillColorModel Idref="9FF1BcqGAqAACwYx" Name=""/>
+				<ProjectFillColorModel Idref="9FF1BcqGAqAACwYy" Name=""/>
+				<ProjectFillColorModel Idref="9FF1BcqGAqAACwYz" Name=""/>
+				<ProjectFillColorModel Idref="DFF1BcqGAqAACwY0" Name=""/>
+				<ProjectFillColorModel Idref="DFF1BcqGAqAACwY1" Name=""/>
+				<ProjectFillColorModel Idref="jFF1BcqGAqAACwY2" Name=""/>
+				<ProjectFillColorModel Idref="jFF1BcqGAqAACwY3" Name=""/>
+				<ProjectFillColorModel Idref="jFF1BcqGAqAACwY4" Name=""/>
+				<ProjectFillColorModel Idref="jFF1BcqGAqAACwY5" Name=""/>
+				<ProjectFillColorModel Idref="TFF1BcqGAqAACwY6" Name=""/>
+				<ProjectFillColorModel Idref="TFF1BcqGAqAACwY7" Name=""/>
+				<ProjectFillColorModel Idref="TFF1BcqGAqAACwY8" Name=""/>
+				<ProjectFillColorModel Idref="zFF1BcqGAqAACwY9" Name=""/>
+				<ProjectFillColorModel Idref="zFF1BcqGAqAACwY." Name=""/>
+				<ProjectFillColorModel Idref="zFF1BcqGAqAACwY_" Name=""/>
+				<ProjectFillColorModel Idref="LFF1BcqGAqAACwZA" Name=""/>
+				<ProjectFillColorModel Idref="LFF1BcqGAqAACwZB" Name=""/>
+				<ProjectFillColorModel Idref="LFF1BcqGAqAACwZC" Name=""/>
+				<ProjectFillColorModel Idref="LFF1BcqGAqAACwZD" Name=""/>
+				<ProjectFillColorModel Idref="rFF1BcqGAqAACwZE" Name=""/>
+				<ProjectFillColorModel Idref="rFF1BcqGAqAACwZF" Name=""/>
+				<ProjectFillColorModel Idref="rFF1BcqGAqAACwZG" Name=""/>
+				<ProjectFillColorModel Idref="rFF1BcqGAqAACwZH" Name=""/>
+				<ProjectFillColorModel Idref="bFF1BcqGAqAACwZI" Name=""/>
+				<ProjectFillColorModel Idref="bFF1BcqGAqAACwZJ" Name=""/>
+				<ProjectFillColorModel Idref="bFF1BcqGAqAACwZK" Name=""/>
+			</FillColorModels>
+			<ConnectorFillColorModels>
+				<ProjectFillColorModel Idref="bFF1BcqGAqAACwZL" Name=""/>
+				<ProjectFillColorModel Idref="7FF1BcqGAqAACwZM" Name=""/>
+				<ProjectFillColorModel Idref="7FF1BcqGAqAACwZN" Name=""/>
+				<ProjectFillColorModel Idref="7FF1BcqGAqAACwZO" Name=""/>
+				<ProjectFillColorModel Idref="7FF1BcqGAqAACwZP" Name=""/>
+				<ProjectFillColorModel Idref="HFF1BcqGAqAACwZQ" Name=""/>
+				<ProjectFillColorModel Idref="HFF1BcqGAqAACwZR" Name=""/>
+				<ProjectFillColorModel Idref="HFF1BcqGAqAACwZS" Name=""/>
+				<ProjectFillColorModel Idref="HFF1BcqGAqAACwZT" Name=""/>
+				<ProjectFillColorModel Idref="nFF1BcqGAqAACwZU" Name=""/>
+				<ProjectFillColorModel Idref="nFF1BcqGAqAACwZV" Name=""/>
+				<ProjectFillColorModel Idref="nFF1BcqGAqAACwZW" Name=""/>
+				<ProjectFillColorModel Idref="nFF1BcqGAqAACwZX" Name=""/>
+				<ProjectFillColorModel Idref="XFF1BcqGAqAACwZY" Name=""/>
+				<ProjectFillColorModel Idref="XFF1BcqGAqAACwZZ" Name=""/>
+				<ProjectFillColorModel Idref="XFF1BcqGAqAACwZa" Name=""/>
+				<ProjectFillColorModel Idref="XFF1BcqGAqAACwZb" Name=""/>
+				<ProjectFillColorModel Idref="3FF1BcqGAqAACwZc" Name=""/>
+				<ProjectFillColorModel Idref="3FF1BcqGAqAACwZd" Name=""/>
+				<ProjectFillColorModel Idref="3FF1BcqGAqAACwZe" Name=""/>
+				<ProjectFillColorModel Idref="3FF1BcqGAqAACwZf" Name=""/>
+				<ProjectFillColorModel Idref="3FF1BcqGAqAACwZg" Name=""/>
+				<ProjectFillColorModel Idref="PFF1BcqGAqAACwZh" Name=""/>
+				<ProjectFillColorModel Idref="PFF1BcqGAqAACwZi" Name=""/>
+				<ProjectFillColorModel Idref="PFF1BcqGAqAACwZj" Name=""/>
+				<ProjectFillColorModel Idref="PFF1BcqGAqAACwZk" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZl" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZm" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZn" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZo" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZp" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZq" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZr" Name=""/>
+				<ProjectFillColorModel Idref="vFF1BcqGAqAACwZs" Name=""/>
+				<ProjectFillColorModel Idref="_FF1BcqGAqAACwZt" Name=""/>
+				<ProjectFillColorModel Idref="_FF1BcqGAqAACwZu" Name=""/>
+				<ProjectFillColorModel Idref="_FF1BcqGAqAACwZv" Name=""/>
+				<ProjectFillColorModel Idref="AlF1BcqGAqAACwZw" Name=""/>
+				<ProjectFillColorModel Idref="AlF1BcqGAqAACwZx" Name=""/>
+				<ProjectFillColorModel Idref="AlF1BcqGAqAACwZy" Name=""/>
+				<ProjectFillColorModel Idref="AlF1BcqGAqAACwZz" Name=""/>
+				<ProjectFillColorModel Idref="glF1BcqGAqAACwZ0" Name=""/>
+				<ProjectFillColorModel Idref="glF1BcqGAqAACwZ1" Name=""/>
+				<ProjectFillColorModel Idref="glF1BcqGAqAACwZ2" Name=""/>
+				<ProjectFillColorModel Idref="glF1BcqGAqAACwZ3" Name=""/>
+				<ProjectFillColorModel Idref="glF1BcqGAqAACwZ4" Name=""/>
+				<ProjectFillColorModel Idref="QlF1BcqGAqAACwZ5" Name=""/>
+				<ProjectFillColorModel Idref="QlF1BcqGAqAACwZ6" Name=""/>
+				<ProjectFillColorModel Idref="QlF1BcqGAqAACwZ7" Name=""/>
+				<ProjectFillColorModel Idref="QlF1BcqGAqAACwZ8" Name=""/>
+				<ProjectFillColorModel Idref="wlF1BcqGAqAACwZ9" Name=""/>
+				<ProjectFillColorModel Idref="wlF1BcqGAqAACwZ." Name=""/>
+				<ProjectFillColorModel Idref="wlF1BcqGAqAACwZ_" Name=""/>
+				<ProjectFillColorModel Idref="wlF1BcqGAqAACwaA" Name=""/>
+				<ProjectFillColorModel Idref="wlF1BcqGAqAACwaB" Name=""/>
+				<ProjectFillColorModel Idref="IlF1BcqGAqAACwaC" Name=""/>
+				<ProjectFillColorModel Idref="IlF1BcqGAqAACwaD" Name=""/>
+				<ProjectFillColorModel Idref="IlF1BcqGAqAACwaE" Name=""/>
+				<ProjectFillColorModel Idref="IlF1BcqGAqAACwaF" Name=""/>
+				<ProjectFillColorModel Idref="olF1BcqGAqAACwaG" Name=""/>
+				<ProjectFillColorModel Idref="olF1BcqGAqAACwaH" Name=""/>
+				<ProjectFillColorModel Idref="olF1BcqGAqAACwaI" Name=""/>
+				<ProjectFillColorModel Idref="olF1BcqGAqAACwaJ" Name=""/>
+				<ProjectFillColorModel Idref="YlF1BcqGAqAACwaK" Name=""/>
+				<ProjectFillColorModel Idref="YlF1BcqGAqAACwaL" Name=""/>
+				<ProjectFillColorModel Idref="YlF1BcqGAqAACwaM" Name=""/>
+				<ProjectFillColorModel Idref="YlF1BcqGAqAACwaN" Name=""/>
+				<ProjectFillColorModel Idref="4lF1BcqGAqAACwaO" Name=""/>
+				<ProjectFillColorModel Idref="4lF1BcqGAqAACwaP" Name=""/>
+				<ProjectFillColorModel Idref="4lF1BcqGAqAACwaQ" Name=""/>
+				<ProjectFillColorModel Idref="4lF1BcqGAqAACwaR" Name=""/>
+				<ProjectFillColorModel Idref="ElF1BcqGAqAACwaS" Name=""/>
+				<ProjectFillColorModel Idref="ElF1BcqGAqAACwaT" Name=""/>
+				<ProjectFillColorModel Idref="ElF1BcqGAqAACwaU" Name=""/>
+				<ProjectFillColorModel Idref="klF1BcqGAqAACwaV" Name=""/>
+				<ProjectFillColorModel Idref="klF1BcqGAqAACwaW" Name=""/>
+				<ProjectFillColorModel Idref="UlF1BcqGAqAACwaX" Name=""/>
+				<ProjectFillColorModel Idref="UlF1BcqGAqAACwaY" Name=""/>
+				<ProjectFillColorModel Idref="UlF1BcqGAqAACwaZ" Name=""/>
+				<ProjectFillColorModel Idref="0lF1BcqGAqAACwaa" Name=""/>
+				<ProjectFillColorModel Idref="0lF1BcqGAqAACwab" Name=""/>
+				<ProjectFillColorModel Idref="0lF1BcqGAqAACwac" Name=""/>
+				<ProjectFillColorModel Idref="0lF1BcqGAqAACwad" Name=""/>
+				<ProjectFillColorModel Idref="0lF1BcqGAqAACwae" Name=""/>
+				<ProjectFillColorModel Idref="MlF1BcqGAqAACwaf" Name=""/>
+				<ProjectFillColorModel Idref="MlF1BcqGAqAACwag" Name=""/>
+				<ProjectFillColorModel Idref="MlF1BcqGAqAACwah" Name=""/>
+				<ProjectFillColorModel Idref="MlF1BcqGAqAACwai" Name=""/>
+				<ProjectFillColorModel Idref="slF1BcqGAqAACwaj" Name=""/>
+				<ProjectFillColorModel Idref="slF1BcqGAqAACwak" Name=""/>
+				<ProjectFillColorModel Idref="slF1BcqGAqAACwal" Name=""/>
+				<ProjectFillColorModel Idref="slF1BcqGAqAACwam" Name=""/>
+				<ProjectFillColorModel Idref="clF1BcqGAqAACwan" Name=""/>
+				<ProjectFillColorModel Idref="clF1BcqGAqAACwao" Name=""/>
+				<ProjectFillColorModel Idref="clF1BcqGAqAACwap" Name=""/>
+				<ProjectFillColorModel Idref="clF1BcqGAqAACwaq" Name=""/>
+				<ProjectFillColorModel Idref="clF1BcqGAqAACwar" Name=""/>
+				<ProjectFillColorModel Idref="8lF1BcqGAqAACwas" Name=""/>
+				<ProjectFillColorModel Idref="8lF1BcqGAqAACwat" Name=""/>
+				<ProjectFillColorModel Idref="8lF1BcqGAqAACwau" Name=""/>
+				<ProjectFillColorModel Idref="8lF1BcqGAqAACwav" Name=""/>
+				<ProjectFillColorModel Idref="ClF1BcqGAqAACwaw" Name=""/>
+				<ProjectFillColorModel Idref="ClF1BcqGAqAACwax" Name=""/>
+				<ProjectFillColorModel Idref="ClF1BcqGAqAACway" Name=""/>
+				<ProjectFillColorModel Idref="ClF1BcqGAqAACwaz" Name=""/>
+				<ProjectFillColorModel Idref="ilF1BcqGAqAACwa0" Name=""/>
+				<ProjectFillColorModel Idref="ilF1BcqGAqAACwa1" Name=""/>
+				<ProjectFillColorModel Idref="ilF1BcqGAqAACwa2" Name=""/>
+				<ProjectFillColorModel Idref="SlF1BcqGAqAACwa3" Name=""/>
+				<ProjectFillColorModel Idref="SlF1BcqGAqAACwa4" Name=""/>
+				<ProjectFillColorModel Idref="SlF1BcqGAqAACwa5" Name=""/>
+				<ProjectFillColorModel Idref="SlF1BcqGAqAACwa6" Name=""/>
+				<ProjectFillColorModel Idref="ylF1BcqGAqAACwa7" Name=""/>
+				<ProjectFillColorModel Idref="ylF1BcqGAqAACwa8" Name=""/>
+				<ProjectFillColorModel Idref="ylF1BcqGAqAACwa9" Name=""/>
+				<ProjectFillColorModel Idref="ylF1BcqGAqAACwa." Name=""/>
+				<ProjectFillColorModel Idref="ylF1BcqGAqAACwa_" Name=""/>
+				<ProjectFillColorModel Idref="KlF1BcqGAqAACwbA" Name=""/>
+				<ProjectFillColorModel Idref="KlF1BcqGAqAACwbB" Name=""/>
+				<ProjectFillColorModel Idref="KlF1BcqGAqAACwbC" Name=""/>
+				<ProjectFillColorModel Idref="KlF1BcqGAqAACwbD" Name=""/>
+			</ConnectorFillColorModels>
+			<DefaultLineModels>
+				<ProjectDefaultLineModel Idref="qlF1BcqGAqAACwbE" Name=""/>
+				<ProjectDefaultLineModel Idref="qlF1BcqGAqAACwbF" Name=""/>
+				<ProjectDefaultLineModel Idref="qlF1BcqGAqAACwbG" Name=""/>
+				<ProjectDefaultLineModel Idref="qlF1BcqGAqAACwbH" Name=""/>
+				<ProjectDefaultLineModel Idref="alF1BcqGAqAACwbI" Name=""/>
+				<ProjectDefaultLineModel Idref="alF1BcqGAqAACwbJ" Name=""/>
+				<ProjectDefaultLineModel Idref="alF1BcqGAqAACwbK" Name=""/>
+				<ProjectDefaultLineModel Idref="alF1BcqGAqAACwbL" Name=""/>
+				<ProjectDefaultLineModel Idref="6lF1BcqGAqAACwbM" Name=""/>
+				<ProjectDefaultLineModel Idref="6lF1BcqGAqAACwbN" Name=""/>
+				<ProjectDefaultLineModel Idref="6lF1BcqGAqAACwbO" Name=""/>
+				<ProjectDefaultLineModel Idref="6lF1BcqGAqAACwbP" Name=""/>
+				<ProjectDefaultLineModel Idref="GlF1BcqGAqAACwbQ" Name=""/>
+			</DefaultLineModels>
+			<ConnectorDefaultLineModels>
+				<ProjectDefaultLineModel Idref="GlF1BcqGAqAACwbR" Name=""/>
+				<ProjectDefaultLineModel Idref="GlF1BcqGAqAACwbS" Name=""/>
+				<ProjectDefaultLineModel Idref="GlF1BcqGAqAACwbT" Name=""/>
+				<ProjectDefaultLineModel Idref="GlF1BcqGAqAACwbU" Name=""/>
+				<ProjectDefaultLineModel Idref="mlF1BcqGAqAACwbV" Name=""/>
+			</ConnectorDefaultLineModels>
+			<ShapeElementFontModels>
+				<ProjectElementFontModel Idref="mlF1BcqGAqAACwbW" Name=""/>
+				<ProjectElementFontModel Idref="mlF1BcqGAqAACwbX" Name=""/>
+				<ProjectElementFontModel Idref="mlF1BcqGAqAACwbY" Name=""/>
+				<ProjectElementFontModel Idref="WlF1BcqGAqAACwbZ" Name=""/>
+				<ProjectElementFontModel Idref="WlF1BcqGAqAACwba" Name=""/>
+				<ProjectElementFontModel Idref="WlF1BcqGAqAACwbb" Name=""/>
+				<ProjectElementFontModel Idref="WlF1BcqGAqAACwbc" Name=""/>
+				<ProjectElementFontModel Idref="2lF1BcqGAqAACwbd" Name=""/>
+				<ProjectElementFontModel Idref="2lF1BcqGAqAACwbe" Name=""/>
+				<ProjectElementFontModel Idref="OlF1BcqGAqAACwbf" Name=""/>
+				<ProjectElementFontModel Idref="OlF1BcqGAqAACwbg" Name=""/>
+				<ProjectElementFontModel Idref="OlF1BcqGAqAACwbh" Name=""/>
+				<ProjectElementFontModel Idref="OlF1BcqGAqAACwbi" Name=""/>
+				<ProjectElementFontModel Idref="ulF1BcqGAqAACwbj" Name=""/>
+				<ProjectElementFontModel Idref="ulF1BcqGAqAACwbk" Name=""/>
+				<ProjectElementFontModel Idref="ulF1BcqGAqAACwbl" Name=""/>
+				<ProjectElementFontModel Idref="ulF1BcqGAqAACwbm" Name=""/>
+				<ProjectElementFontModel Idref="ulF1BcqGAqAACwbn" Name=""/>
+				<ProjectElementFontModel Idref="elF1BcqGAqAACwbo" Name=""/>
+				<ProjectElementFontModel Idref="elF1BcqGAqAACwbp" Name=""/>
+				<ProjectElementFontModel Idref="elF1BcqGAqAACwbq" Name=""/>
+				<ProjectElementFontModel Idref="elF1BcqGAqAACwbr" Name=""/>
+				<ProjectElementFontModel Idref=".lF1BcqGAqAACwbs" Name=""/>
+				<ProjectElementFontModel Idref=".lF1BcqGAqAACwbt" Name=""/>
+				<ProjectElementFontModel Idref=".lF1BcqGAqAACwbu" Name=""/>
+				<ProjectElementFontModel Idref=".lF1BcqGAqAACwbv" Name=""/>
+				<ProjectElementFontModel Idref=".lF1BcqGAqAACwbw" Name=""/>
+				<ProjectElementFontModel Idref="BlF1BcqGAqAACwbx" Name=""/>
+				<ProjectElementFontModel Idref="BlF1BcqGAqAACwby" Name=""/>
+				<ProjectElementFontModel Idref="BlF1BcqGAqAACwbz" Name=""/>
+			</ShapeElementFontModels>
+			<ModelChildren>
+				<ProjectFillColorModel BaseType="Global" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="cFF1BcqGAqAACwWw" Name=""/>
+				<ProjectFillColorModel BaseType="Global" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="cFF1BcqGAqAACwWx" Name=""/>
+				<ProjectFillColorModel BaseType="DBTable" FillColorColor1="-674182" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="cFF1BcqGAqAACwWy" Name=""/>
+				<ProjectFillColorModel BaseType="DBView" FillColorColor1="-674182" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="8FF1BcqGAqAACwWz" Name=""/>
+				<ProjectFillColorModel BaseType="DBViewTable" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="8FF1BcqGAqAACwW0" Name=""/>
+				<ProjectFillColorModel BaseType="ORMContainer" FillColorColor1="-657931" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="8FF1BcqGAqAACwW1" Name=""/>
+				<ProjectFillColorModel BaseType="JoinNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="CFF1BcqGAqAACwW2" Name=""/>
+				<ProjectFillColorModel BaseType="ForkNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="CFF1BcqGAqAACwW3" Name=""/>
+				<ProjectFillColorModel BaseType="InitialNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="CFF1BcqGAqAACwW4" Name=""/>
+				<ProjectFillColorModel BaseType="ActivityFinalNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="CFF1BcqGAqAACwW5" Name=""/>
+				<ProjectFillColorModel BaseType="InitialPseudoState" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="iFF1BcqGAqAACwW6" Name=""/>
+				<ProjectFillColorModel BaseType="Junction" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="iFF1BcqGAqAACwW7" Name=""/>
+				<ProjectFillColorModel BaseType="Fork" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="iFF1BcqGAqAACwW8" Name=""/>
+				<ProjectFillColorModel BaseType="Join" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="iFF1BcqGAqAACwW9" Name=""/>
+				<ProjectFillColorModel BaseType="FinalState2" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="SFF1BcqGAqAACwW." Name=""/>
+				<ProjectFillColorModel BaseType="RestResource" FillColorColor1="-526345" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="SFF1BcqGAqAACwW_" Name=""/>
+				<ProjectFillColorModel BaseType="BPTask" FillColorColor1="-1116806" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="SFF1BcqGAqAACwXA" Name=""/>
+				<ProjectFillColorModel BaseType="EPCRole" FillColorColor1="-396859" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="yFF1BcqGAqAACwXB" Name=""/>
+				<ProjectFillColorModel BaseType="CentralConceptMindMapNode" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="yFF1BcqGAqAACwXC" Name=""/>
+				<ProjectFillColorModel BaseType="BranchMindMapNode" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="yFF1BcqGAqAACwXD" Name=""/>
+				<ProjectFillColorModel BaseType="NodeMindMapNode" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="yFF1BcqGAqAACwXE" Name=""/>
+				<ProjectFillColorModel BaseType="EPCSystem" FillColorColor1="-6760972" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="KFF1BcqGAqAACwXF" Name=""/>
+				<ProjectFillColorModel BaseType="BPSubProcess" FillColorColor1="-662150" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="KFF1BcqGAqAACwXG" Name=""/>
+				<ProjectFillColorModel BaseType="BPPool" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="KFF1BcqGAqAACwXH" Name=""/>
+				<ProjectFillColorModel BaseType="BPStartEvent" FillColorColor1="-3934854" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="qFF1BcqGAqAACwXI" Name=""/>
+				<ProjectFillColorModel BaseType="BPIntermediateEvent" FillColorColor1="-670598" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="qFF1BcqGAqAACwXJ" Name=""/>
+				<ProjectFillColorModel BaseType="BPEndEvent" FillColorColor1="-689542" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="qFF1BcqGAqAACwXK" Name=""/>
+				<ProjectFillColorModel BaseType="BPGroup" FillColorColor1="-723724" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="qFF1BcqGAqAACwXL" Name=""/>
+				<ProjectFillColorModel BaseType="SubLevelInFlow" FillColorColor1="-7290331" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="qFF1BcqGAqAACwXM" Name=""/>
+				<ProjectFillColorModel BaseType="SubLevelOutFlow" FillColorColor1="-3407872" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="aFF1BcqGAqAACwXN" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataObject" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="aFF1BcqGAqAACwXO" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataOutput" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="aFF1BcqGAqAACwXP" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataInput" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="aFF1BcqGAqAACwXQ" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataStore" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="6FF1BcqGAqAACwXR" Name=""/>
+				<ProjectFillColorModel BaseType="BPGateway" FillColorColor1="-26322" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="6FF1BcqGAqAACwXS" Name=""/>
+				<ProjectFillColorModel BaseType="BPTextAnnotation" FillColorColor1="-723724" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="6FF1BcqGAqAACwXT" Name=""/>
+				<ProjectFillColorModel BaseType="BPLane" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="6FF1BcqGAqAACwXU" Name=""/>
+				<ProjectFillColorModel BaseType="BPChoreographyTask" FillColorColor1="-1116806" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="GFF1BcqGAqAACwXV" Name=""/>
+				<ProjectFillColorModel BaseType="BPChoreographySubProcess" FillColorColor1="-662150" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="GFF1BcqGAqAACwXW" Name=""/>
+				<ProjectFillColorModel BaseType="BPCallChoreographyActivity" FillColorColor1="-256" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="GFF1BcqGAqAACwXX" Name=""/>
+				<ProjectFillColorModel BaseType="BPCallActivity" FillColorColor1="-256" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="GFF1BcqGAqAACwXY" Name=""/>
+				<ProjectFillColorModel BaseType="BPMessage" FillColorColor1="-6556965" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="mFF1BcqGAqAACwXZ" Name=""/>
+				<ProjectFillColorModel BaseType="Requirement" FillColorColor1="-4138559" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="mFF1BcqGAqAACwXa" Name=""/>
+				<ProjectFillColorModel BaseType="RequirementModel" FillColorColor1="-4138559" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="mFF1BcqGAqAACwXb" Name=""/>
+				<ProjectFillColorModel BaseType="TestCase" FillColorColor1="-4138559" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="mFF1BcqGAqAACwXc" Name=""/>
+				<ProjectFillColorModel BaseType="ProcedureContainer" FillColorColor1="-4331895" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="WFF1BcqGAqAACwXd" Name=""/>
+				<ProjectFillColorModel BaseType="ProcedureResultSet" FillColorColor1="-1841527" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="WFF1BcqGAqAACwXe" Name=""/>
+				<ProjectFillColorModel BaseType="DFDataStore" FillColorColor1="-726374" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="WFF1BcqGAqAACwXf" Name=""/>
+				<ProjectFillColorModel BaseType="DFExternalEntity" FillColorColor1="-726374" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="WFF1BcqGAqAACwXg" Name=""/>
+				<ProjectFillColorModel BaseType="DFProcess" FillColorColor1="-726374" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="2FF1BcqGAqAACwXh" Name=""/>
+				<ProjectFillColorModel BaseType="DBTriggerContainer" FillColorColor1="-7939355" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="2FF1BcqGAqAACwXi" Name=""/>
+				<ProjectFillColorModel BaseType="MindMapNode" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="2FF1BcqGAqAACwXj" Name=""/>
+				<ProjectFillColorModel BaseType="Callout" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="2FF1BcqGAqAACwXk" Name=""/>
+				<ProjectFillColorModel BaseType="Rectangle" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="OFF1BcqGAqAACwXl" Name=""/>
+				<ProjectFillColorModel BaseType="Polygon" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="OFF1BcqGAqAACwXm" Name=""/>
+				<ProjectFillColorModel BaseType="Oval" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="OFF1BcqGAqAACwXn" Name=""/>
+				<ProjectFillColorModel BaseType="EPCEvent" FillColorColor1="-5447584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="OFF1BcqGAqAACwXo" Name=""/>
+				<ProjectFillColorModel BaseType="EPCFunction" FillColorColor1="-3023505" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="OFF1BcqGAqAACwXp" Name=""/>
+				<ProjectFillColorModel BaseType="EPCAndOperator" FillColorColor1="-1471446" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="uFF1BcqGAqAACwXq" Name=""/>
+				<ProjectFillColorModel BaseType="EPCOrOperator" FillColorColor1="-1471446" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="uFF1BcqGAqAACwXr" Name=""/>
+				<ProjectFillColorModel BaseType="EPCXOROperator" FillColorColor1="-1471446" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="uFF1BcqGAqAACwXs" Name=""/>
+				<ProjectFillColorModel BaseType="EPCOrganizationUnit" FillColorColor1="-11102757" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="uFF1BcqGAqAACwXt" Name=""/>
+				<ProjectFillColorModel BaseType="EPCProcessPath" FillColorColor1="-3023505" FillColorColor2="-5447584" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="eFF1BcqGAqAACwXu" Name=""/>
+				<ProjectFillColorModel BaseType="EPCInformationResource" FillColorColor1="-1914523" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="eFF1BcqGAqAACwXv" Name=""/>
+				<ProjectFillColorModel BaseType="PMProcess" FillColorColor1="-3023505" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="eFF1BcqGAqAACwXw" Name=""/>
+				<ProjectFillColorModel BaseType="PMSend" FillColorColor1="-5447584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="eFF1BcqGAqAACwXx" Name=""/>
+				<ProjectFillColorModel BaseType="PMReceive" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id=".FF1BcqGAqAACwXy" Name=""/>
+				<ProjectFillColorModel BaseType="OCUnit" FillColorColor1="-2979851" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id=".FF1BcqGAqAACwXz" Name=""/>
+				<ProjectFillColorModel BaseType="BPMessageFlow" FillColorColor1="-723724" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id=".FF1BcqGAqAACwX0" Name=""/>
+				<ProjectFillColorModel BaseType="DFDataFlow" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id=".FF1BcqGAqAACwX1" Name=""/>
+				<ProjectFillColorModel BaseType="BPSequenceFlow" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="BFF1BcqGAqAACwX2" Name=""/>
+				<ProjectFillColorModel BaseType="Message" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="BFF1BcqGAqAACwX3" Name=""/>
+				<ProjectFillColorModel BaseType="Generalization" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="BFF1BcqGAqAACwX4" Name=""/>
+				<ProjectFillColorModel BaseType="DBSequence" FillColorColor1="-3434280" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="hFF1BcqGAqAACwX5" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisViewNode" FillColorColor1="-5769862" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="hFF1BcqGAqAACwX6" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisViewGroupNode" FillColorColor1="-5769862" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="hFF1BcqGAqAACwX7" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisDiagramNode" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="RFF1BcqGAqAACwX8" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisDiagramGroupNode" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="RFF1BcqGAqAACwX9" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisModelNode" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="RFF1BcqGAqAACwX." Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisModelGroupNode" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="RFF1BcqGAqAACwX_" Name=""/>
+				<ProjectFillColorModel BaseType="ConversationParticipant" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="xFF1BcqGAqAACwYA" Name=""/>
+				<ProjectFillColorModel BaseType="ConversationCommunication" FillColorColor1="-3630094" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="xFF1BcqGAqAACwYB" Name=""/>
+				<ProjectFillColorModel BaseType="SubConversation" FillColorColor1="-3630094" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="xFF1BcqGAqAACwYC" Name=""/>
+				<ProjectFillColorModel BaseType="CallConversation" FillColorColor1="-3630094" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="xFF1BcqGAqAACwYD" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessActor" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="xFF1BcqGAqAACwYE" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessCollaboration" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="JFF1BcqGAqAACwYF" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessEvent" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="JFF1BcqGAqAACwYG" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessFunction" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="JFF1BcqGAqAACwYH" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessInteraction" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="JFF1BcqGAqAACwYI" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessInterface" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="pFF1BcqGAqAACwYJ" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessObject" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="pFF1BcqGAqAACwYK" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessProcess" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="pFF1BcqGAqAACwYL" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessRole" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="pFF1BcqGAqAACwYM" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessService" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ZFF1BcqGAqAACwYN" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateProduct" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ZFF1BcqGAqAACwYO" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateContract" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ZFF1BcqGAqAACwYP" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateMeaning" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ZFF1BcqGAqAACwYQ" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateValue" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="5FF1BcqGAqAACwYR" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateRepresentation" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="5FF1BcqGAqAACwYS" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationCollaboration" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="5FF1BcqGAqAACwYT" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationComponent" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="5FF1BcqGAqAACwYU" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationFunction" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="FFF1BcqGAqAACwYV" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationInteraction" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="FFF1BcqGAqAACwYW" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationInterface" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="FFF1BcqGAqAACwYX" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationService" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="FFF1BcqGAqAACwYY" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDataObject" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="FFF1BcqGAqAACwYZ" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDevice" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="lFF1BcqGAqAACwYa" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateNode" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="lFF1BcqGAqAACwYb" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateSystemSoftware" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="lFF1BcqGAqAACwYc" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureInterface" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="VFF1BcqGAqAACwYd" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateLocation" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="VFF1BcqGAqAACwYe" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureFunction" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="VFF1BcqGAqAACwYf" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateStakeholder" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="1FF1BcqGAqAACwYg" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDriver" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="1FF1BcqGAqAACwYh" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateAssessment" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="1FF1BcqGAqAACwYi" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateGoal" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="1FF1BcqGAqAACwYj" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMatePrinciple" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="NFF1BcqGAqAACwYk" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateRequirement" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="NFF1BcqGAqAACwYl" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateConstraint" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="NFF1BcqGAqAACwYm" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMatePlateau" FillColorColor1="-2818604" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="NFF1BcqGAqAACwYn" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateGap" FillColorColor1="-2818604" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="tFF1BcqGAqAACwYo" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDeliverable" FillColorColor1="-142083" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="tFF1BcqGAqAACwYp" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateWorkPackage" FillColorColor1="-142083" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="tFF1BcqGAqAACwYq" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureService" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="tFF1BcqGAqAACwYr" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateArtifact" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="dFF1BcqGAqAACwYs" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateGrouping" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="dFF1BcqGAqAACwYt" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateNetwork" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="dFF1BcqGAqAACwYu" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateNetworkBox" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="dFF1BcqGAqAACwYv" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateCommunicationPath" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="9FF1BcqGAqAACwYw" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateCommunicationPathBox" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="9FF1BcqGAqAACwYx" Name=""/>
+				<ProjectFillColorModel BaseType="Glossary" FillColorColor1="-10896911" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="9FF1BcqGAqAACwYy" Name=""/>
+				<ProjectFillColorModel BaseType="FactTypeRoleFactName" FillColorColor1="-10896911" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="9FF1BcqGAqAACwYz" Name=""/>
+				<ProjectFillColorModel BaseType="BMMAssessment" FillColorColor1="-589" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="DFF1BcqGAqAACwY0" Name=""/>
+				<ProjectFillColorModel BaseType="BMMBusinessPolicy" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="DFF1BcqGAqAACwY1" Name=""/>
+				<ProjectFillColorModel BaseType="BMMGoal" FillColorColor1="-5747" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="jFF1BcqGAqAACwY2" Name=""/>
+				<ProjectFillColorModel BaseType="BMMMission" FillColorColor1="-1639425" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="jFF1BcqGAqAACwY3" Name=""/>
+				<ProjectFillColorModel BaseType="BMMRisk" FillColorColor1="-589" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="jFF1BcqGAqAACwY4" Name=""/>
+				<ProjectFillColorModel BaseType="BMMStrategy" FillColorColor1="-4921361" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="jFF1BcqGAqAACwY5" Name=""/>
+				<ProjectFillColorModel BaseType="BMMTactic" FillColorColor1="-6101255" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="TFF1BcqGAqAACwY6" Name=""/>
+				<ProjectFillColorModel BaseType="BMMAsset" FillColorColor1="-1184275" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="TFF1BcqGAqAACwY7" Name=""/>
+				<ProjectFillColorModel BaseType="BMMLiability" FillColorColor1="-1184275" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="TFF1BcqGAqAACwY8" Name=""/>
+				<ProjectFillColorModel BaseType="BMMEnd" FillColorColor1="-2424873" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="zFF1BcqGAqAACwY9" Name=""/>
+				<ProjectFillColorModel BaseType="BMMMeans" FillColorColor1="-332801" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="zFF1BcqGAqAACwY." Name=""/>
+				<ProjectFillColorModel BaseType="BMMVision" FillColorColor1="-297" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="zFF1BcqGAqAACwY_" Name=""/>
+				<ProjectFillColorModel BaseType="BMMPotentialReward" FillColorColor1="-589" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="LFF1BcqGAqAACwZA" Name=""/>
+				<ProjectFillColorModel BaseType="BMMOrganizationUnit" FillColorColor1="-1184275" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="LFF1BcqGAqAACwZB" Name=""/>
+				<ProjectFillColorModel BaseType="BMMObjective" FillColorColor1="-11187" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="LFF1BcqGAqAACwZC" Name=""/>
+				<ProjectFillColorModel BaseType="BMMInternalInfluencer" FillColorColor1="-410113" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="LFF1BcqGAqAACwZD" Name=""/>
+				<ProjectFillColorModel BaseType="BMMExternalInfluencer" FillColorColor1="-410113" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="rFF1BcqGAqAACwZE" Name=""/>
+				<ProjectFillColorModel BaseType="BMMInfluencingOrganization" FillColorColor1="-410113" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="rFF1BcqGAqAACwZF" Name=""/>
+				<ProjectFillColorModel BaseType="BMMBusinessProcess" FillColorColor1="-1184275" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="rFF1BcqGAqAACwZG" Name=""/>
+				<ProjectFillColorModel BaseType="DMBusinessDecision" FillColorColor1="-26322" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="rFF1BcqGAqAACwZH" Name=""/>
+				<ProjectFillColorModel BaseType="DMRuleFamily" FillColorColor1="-5327" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="bFF1BcqGAqAACwZI" Name=""/>
+				<ProjectFillColorModel BaseType="Gate" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="100" FillColorType="Solid" Id="bFF1BcqGAqAACwZJ" Name=""/>
+				<ProjectFillColorModel BaseType="DTBDecisionTable" FillColorColor1="-5327" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="bFF1BcqGAqAACwZK" Name=""/>
+				<ProjectFillColorModel BaseType="DBTable" FillColorColor1="-674182" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="bFF1BcqGAqAACwZL" Name=""/>
+				<ProjectFillColorModel BaseType="DBView" FillColorColor1="-674182" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="7FF1BcqGAqAACwZM" Name=""/>
+				<ProjectFillColorModel BaseType="ORMContainer" FillColorColor1="-657931" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="7FF1BcqGAqAACwZN" Name=""/>
+				<ProjectFillColorModel BaseType="JoinNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="7FF1BcqGAqAACwZO" Name=""/>
+				<ProjectFillColorModel BaseType="ForkNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="7FF1BcqGAqAACwZP" Name=""/>
+				<ProjectFillColorModel BaseType="InitialNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="HFF1BcqGAqAACwZQ" Name=""/>
+				<ProjectFillColorModel BaseType="ActivityFinalNode" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="HFF1BcqGAqAACwZR" Name=""/>
+				<ProjectFillColorModel BaseType="InitialPseudoState" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="HFF1BcqGAqAACwZS" Name=""/>
+				<ProjectFillColorModel BaseType="Junction" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="HFF1BcqGAqAACwZT" Name=""/>
+				<ProjectFillColorModel BaseType="Fork" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="nFF1BcqGAqAACwZU" Name=""/>
+				<ProjectFillColorModel BaseType="Join" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="nFF1BcqGAqAACwZV" Name=""/>
+				<ProjectFillColorModel BaseType="FinalState2" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="nFF1BcqGAqAACwZW" Name=""/>
+				<ProjectFillColorModel BaseType="BPTask" FillColorColor1="-1116806" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="nFF1BcqGAqAACwZX" Name=""/>
+				<ProjectFillColorModel BaseType="BPSubProcess" FillColorColor1="-662150" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="XFF1BcqGAqAACwZY" Name=""/>
+				<ProjectFillColorModel BaseType="BPPool" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="XFF1BcqGAqAACwZZ" Name=""/>
+				<ProjectFillColorModel BaseType="BPStartEvent" FillColorColor1="-3934854" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="XFF1BcqGAqAACwZa" Name=""/>
+				<ProjectFillColorModel BaseType="BPIntermediateEvent" FillColorColor1="-670598" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="XFF1BcqGAqAACwZb" Name=""/>
+				<ProjectFillColorModel BaseType="BPEndEvent" FillColorColor1="-689542" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="3FF1BcqGAqAACwZc" Name=""/>
+				<ProjectFillColorModel BaseType="BPGroup" FillColorColor1="-723724" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="3FF1BcqGAqAACwZd" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataObject" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="3FF1BcqGAqAACwZe" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataOutput" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="3FF1BcqGAqAACwZf" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataInput" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="3FF1BcqGAqAACwZg" Name=""/>
+				<ProjectFillColorModel BaseType="BPDataStore" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="PFF1BcqGAqAACwZh" Name=""/>
+				<ProjectFillColorModel BaseType="BPGateway" FillColorColor1="-26322" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="PFF1BcqGAqAACwZi" Name=""/>
+				<ProjectFillColorModel BaseType="BPTextAnnotation" FillColorColor1="-723724" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="PFF1BcqGAqAACwZj" Name=""/>
+				<ProjectFillColorModel BaseType="BPLane" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="PFF1BcqGAqAACwZk" Name=""/>
+				<ProjectFillColorModel BaseType="BPChoreographyTask" FillColorColor1="-1116806" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZl" Name=""/>
+				<ProjectFillColorModel BaseType="BPChoreographySubProcess" FillColorColor1="-662150" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZm" Name=""/>
+				<ProjectFillColorModel BaseType="BPCallChoreographyActivity" FillColorColor1="-256" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZn" Name=""/>
+				<ProjectFillColorModel BaseType="BPCallActivity" FillColorColor1="-256" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZo" Name=""/>
+				<ProjectFillColorModel BaseType="BPMessage" FillColorColor1="-6556965" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZp" Name=""/>
+				<ProjectFillColorModel BaseType="Requirement" FillColorColor1="-4138559" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZq" Name=""/>
+				<ProjectFillColorModel BaseType="RequirementModel" FillColorColor1="-4138559" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZr" Name=""/>
+				<ProjectFillColorModel BaseType="TestCase" FillColorColor1="-4138559" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="vFF1BcqGAqAACwZs" Name=""/>
+				<ProjectFillColorModel BaseType="ProcedureContainer" FillColorColor1="-4331895" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="_FF1BcqGAqAACwZt" Name=""/>
+				<ProjectFillColorModel BaseType="ProcedureResultSet" FillColorColor1="-1841527" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="_FF1BcqGAqAACwZu" Name=""/>
+				<ProjectFillColorModel BaseType="DFDataStore" FillColorColor1="-726374" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="_FF1BcqGAqAACwZv" Name=""/>
+				<ProjectFillColorModel BaseType="DFExternalEntity" FillColorColor1="-726374" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="AlF1BcqGAqAACwZw" Name=""/>
+				<ProjectFillColorModel BaseType="DFProcess" FillColorColor1="-726374" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="AlF1BcqGAqAACwZx" Name=""/>
+				<ProjectFillColorModel BaseType="DBTriggerContainer" FillColorColor1="-7939355" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="AlF1BcqGAqAACwZy" Name=""/>
+				<ProjectFillColorModel BaseType="MindMapNode" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="AlF1BcqGAqAACwZz" Name=""/>
+				<ProjectFillColorModel BaseType="Callout" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="glF1BcqGAqAACwZ0" Name=""/>
+				<ProjectFillColorModel BaseType="Rectangle" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="glF1BcqGAqAACwZ1" Name=""/>
+				<ProjectFillColorModel BaseType="Polygon" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="glF1BcqGAqAACwZ2" Name=""/>
+				<ProjectFillColorModel BaseType="Oval" FillColorColor1="-792584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="glF1BcqGAqAACwZ3" Name=""/>
+				<ProjectFillColorModel BaseType="EPCEvent" FillColorColor1="-5447584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="glF1BcqGAqAACwZ4" Name=""/>
+				<ProjectFillColorModel BaseType="EPCFunction" FillColorColor1="-3023505" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="QlF1BcqGAqAACwZ5" Name=""/>
+				<ProjectFillColorModel BaseType="EPCAndOperator" FillColorColor1="-1471446" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="QlF1BcqGAqAACwZ6" Name=""/>
+				<ProjectFillColorModel BaseType="EPCOrOperator" FillColorColor1="-1471446" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="QlF1BcqGAqAACwZ7" Name=""/>
+				<ProjectFillColorModel BaseType="EPCXOROperator" FillColorColor1="-1471446" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="QlF1BcqGAqAACwZ8" Name=""/>
+				<ProjectFillColorModel BaseType="EPCOrganizationUnit" FillColorColor1="-11102757" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="wlF1BcqGAqAACwZ9" Name=""/>
+				<ProjectFillColorModel BaseType="EPCProcessPath" FillColorColor1="-3023505" FillColorColor2="-5447584" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="wlF1BcqGAqAACwZ." Name=""/>
+				<ProjectFillColorModel BaseType="EPCInformationResource" FillColorColor1="-1914523" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="wlF1BcqGAqAACwZ_" Name=""/>
+				<ProjectFillColorModel BaseType="PMProcess" FillColorColor1="-3023505" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="wlF1BcqGAqAACwaA" Name=""/>
+				<ProjectFillColorModel BaseType="PMSend" FillColorColor1="-5447584" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="wlF1BcqGAqAACwaB" Name=""/>
+				<ProjectFillColorModel BaseType="PMReceive" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="IlF1BcqGAqAACwaC" Name=""/>
+				<ProjectFillColorModel BaseType="OCUnit" FillColorColor1="-2979851" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="IlF1BcqGAqAACwaD" Name=""/>
+				<ProjectFillColorModel BaseType="BPMessageFlow" FillColorColor1="-723724" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="IlF1BcqGAqAACwaE" Name=""/>
+				<ProjectFillColorModel BaseType="DFDataFlow" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="IlF1BcqGAqAACwaF" Name=""/>
+				<ProjectFillColorModel BaseType="BPSequenceFlow" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="olF1BcqGAqAACwaG" Name=""/>
+				<ProjectFillColorModel BaseType="Message" FillColorColor1="-16777216" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="olF1BcqGAqAACwaH" Name=""/>
+				<ProjectFillColorModel BaseType="Generalization" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="olF1BcqGAqAACwaI" Name=""/>
+				<ProjectFillColorModel BaseType="DBSequence" FillColorColor1="-3434280" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="olF1BcqGAqAACwaJ" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisViewNode" FillColorColor1="-5769862" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="YlF1BcqGAqAACwaK" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisViewGroupNode" FillColorColor1="-5769862" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="YlF1BcqGAqAACwaL" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisDiagramNode" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="YlF1BcqGAqAACwaM" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisDiagramGroupNode" FillColorColor1="-39" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="YlF1BcqGAqAACwaN" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisModelNode" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="4lF1BcqGAqAACwaO" Name=""/>
+				<ProjectFillColorModel BaseType="AnalysisModelGroupNode" FillColorColor1="-8728587" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="4lF1BcqGAqAACwaP" Name=""/>
+				<ProjectFillColorModel BaseType="ConversationParticipant" FillColorColor1="-7873291" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="4lF1BcqGAqAACwaQ" Name=""/>
+				<ProjectFillColorModel BaseType="ConversationCommunication" FillColorColor1="-3630094" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="4lF1BcqGAqAACwaR" Name=""/>
+				<ProjectFillColorModel BaseType="SubConversation" FillColorColor1="-3630094" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ElF1BcqGAqAACwaS" Name=""/>
+				<ProjectFillColorModel BaseType="CallConversation" FillColorColor1="-3630094" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ElF1BcqGAqAACwaT" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessActor" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ElF1BcqGAqAACwaU" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessCollaboration" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="klF1BcqGAqAACwaV" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessEvent" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="klF1BcqGAqAACwaW" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessFunction" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="UlF1BcqGAqAACwaX" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessInteraction" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="UlF1BcqGAqAACwaY" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessInterface" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="UlF1BcqGAqAACwaZ" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessObject" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="0lF1BcqGAqAACwaa" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessProcess" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="0lF1BcqGAqAACwab" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessRole" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="0lF1BcqGAqAACwac" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateBusinessService" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="0lF1BcqGAqAACwad" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateProduct" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="0lF1BcqGAqAACwae" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateContract" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="MlF1BcqGAqAACwaf" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateMeaning" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="MlF1BcqGAqAACwag" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateValue" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="MlF1BcqGAqAACwah" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateRepresentation" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="MlF1BcqGAqAACwai" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationCollaboration" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="slF1BcqGAqAACwaj" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationComponent" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="slF1BcqGAqAACwak" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationFunction" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="slF1BcqGAqAACwal" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationInteraction" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="slF1BcqGAqAACwam" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationInterface" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="clF1BcqGAqAACwan" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateApplicationService" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="clF1BcqGAqAACwao" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDataObject" FillColorColor1="-983041" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="clF1BcqGAqAACwap" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDevice" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="clF1BcqGAqAACwaq" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateNode" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="clF1BcqGAqAACwar" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateSystemSoftware" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="8lF1BcqGAqAACwas" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureInterface" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="8lF1BcqGAqAACwat" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateLocation" FillColorColor1="-65639" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="8lF1BcqGAqAACwau" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureFunction" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="8lF1BcqGAqAACwav" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureFunction" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ClF1BcqGAqAACwaw" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDriver" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ClF1BcqGAqAACwax" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateAssessment" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ClF1BcqGAqAACway" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateGoal" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ClF1BcqGAqAACwaz" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMatePrinciple" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ilF1BcqGAqAACwa0" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateRequirement" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ilF1BcqGAqAACwa1" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateConstraint" FillColorColor1="-5394177" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ilF1BcqGAqAACwa2" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMatePlateau" FillColorColor1="-2818604" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="SlF1BcqGAqAACwa3" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateGap" FillColorColor1="-2818604" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="SlF1BcqGAqAACwa4" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateDeliverable" FillColorColor1="-142083" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="SlF1BcqGAqAACwa5" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateWorkPackage" FillColorColor1="-142083" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="SlF1BcqGAqAACwa6" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureService" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ylF1BcqGAqAACwa7" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateArtifact" FillColorColor1="-3276852" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ylF1BcqGAqAACwa8" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateGrouping" FillColorColor1="-1" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ylF1BcqGAqAACwa9" Name=""/>
+				<ProjectFillColorModel BaseType="Glossary" FillColorColor1="-10896911" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ylF1BcqGAqAACwa." Name=""/>
+				<ProjectFillColorModel BaseType="FactTypeRoleFactName" FillColorColor1="-10896911" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="ylF1BcqGAqAACwa_" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureFunction" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="KlF1BcqGAqAACwbA" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureFunction" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="KlF1BcqGAqAACwbB" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureFunction" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="KlF1BcqGAqAACwbC" Name=""/>
+				<ProjectFillColorModel BaseType="ArchiMateInfrastructureFunction" FillColorColor1="-2380289" FillColorColor2="0" FillColorGradientStyle="S-N" FillColorTransparency="0" FillColorType="Solid" Id="KlF1BcqGAqAACwbD" Name=""/>
+				<ProjectDefaultLineModel BaseType="Callout" Id="qlF1BcqGAqAACwbE" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Rectangle" Id="qlF1BcqGAqAACwbF" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Polygon" Id="qlF1BcqGAqAACwbG" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="CentralConceptMindMapNode" Id="qlF1BcqGAqAACwbH" LineColor="-16777216" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="4.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="BranchMindMapNode" Id="alF1BcqGAqAACwbI" LineColor="-16751426" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="4.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="NodeMindMapNode" Id="alF1BcqGAqAACwbJ" LineColor="-16751426" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="2.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Oval" Id="alF1BcqGAqAACwbK" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="RestResource" Id="alF1BcqGAqAACwbL" LineColor="-16777216" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="2.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="BPGroup" Id="6lF1BcqGAqAACwbM" LineColor="-16777216" LineModelCap="Round" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name="">
+					<LineModelStrokeDashs>
+						<Value Value="12.0"/>
+						<Value Value="6.0"/>
+						<Value Value="2.0"/>
+						<Value Value="6.0"/>
+					</LineModelStrokeDashs>
+				</ProjectDefaultLineModel>
+				<ProjectDefaultLineModel BaseType="SubLevelInFlow" Id="6lF1BcqGAqAACwbN" LineColor="-9408399" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="SubLevelOutFlow" Id="6lF1BcqGAqAACwbO" LineColor="-9408399" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Gate" Id="6lF1BcqGAqAACwbP" LineColor="-4144960" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="DBViewTable" Id="GlF1BcqGAqAACwbQ" LineColor="-12566464" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Callout" Id="GlF1BcqGAqAACwbR" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Rectangle" Id="GlF1BcqGAqAACwbS" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Polygon" Id="GlF1BcqGAqAACwbT" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="Oval" Id="GlF1BcqGAqAACwbU" LineColor="-3370015" LineModelCap="None" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name=""/>
+				<ProjectDefaultLineModel BaseType="BPGroup" Id="mlF1BcqGAqAACwbV" LineColor="-16777216" LineModelCap="Round" LineModelStrokeNull="false" LineTransparency="0" LineWeight="1.0" Name="">
+					<LineModelStrokeDashs>
+						<Value Value="12.0"/>
+						<Value Value="6.0"/>
+						<Value Value="2.0"/>
+						<Value Value="6.0"/>
+					</LineModelStrokeDashs>
+				</ProjectDefaultLineModel>
+				<ProjectElementFontModel BaseType="DBViewTable" Color="-12566464" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="mlF1BcqGAqAACwbW" ModelElementNameAlignment="9" Name=""/>
+				<ProjectElementFontModel BaseType="CentralConceptMindMapNode" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="SansSerif" FontSize="14" FontStyle="1" Id="mlF1BcqGAqAACwbX" ModelElementNameAlignment="9" Name=""/>
+				<ProjectElementFontModel BaseType="BranchMindMapNode" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="SansSerif" FontSize="12" FontStyle="1" Id="mlF1BcqGAqAACwbY" ModelElementNameAlignment="9" Name=""/>
+				<ProjectElementFontModel BaseType="NodeMindMapNode" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="SansSerif" FontSize="12" FontStyle="1" Id="WlF1BcqGAqAACwbZ" ModelElementNameAlignment="9" Name=""/>
+				<ProjectElementFontModel BaseType="InteractionLifeLine" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="WlF1BcqGAqAACwba" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="Activity" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="WlF1BcqGAqAACwbb" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="ArchiMateContract" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="WlF1BcqGAqAACwbc" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="ArchiMateProduct" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="2lF1BcqGAqAACwbd" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="Artifact" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="2lF1BcqGAqAACwbe" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="BMMAssessment" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="OlF1BcqGAqAACwbf" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="BMMAsset" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="OlF1BcqGAqAACwbg" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="BMMBusinessPolicy" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="OlF1BcqGAqAACwbh" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMEnd" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="OlF1BcqGAqAACwbi" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMExternalInfluencer" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="ulF1BcqGAqAACwbj" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMGoal" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="ulF1BcqGAqAACwbk" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMInfluencingOrganization" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="ulF1BcqGAqAACwbl" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMInternalInfluencer" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="ulF1BcqGAqAACwbm" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMMeans" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="ulF1BcqGAqAACwbn" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMMission" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="elF1BcqGAqAACwbo" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMObjective" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="elF1BcqGAqAACwbp" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMOrganizationUnit" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="elF1BcqGAqAACwbq" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="BMMPotentialReward" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="elF1BcqGAqAACwbr" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="BMMRisk" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id=".lF1BcqGAqAACwbs" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="BMMStrategy" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id=".lF1BcqGAqAACwbt" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMTactic" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id=".lF1BcqGAqAACwbu" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BMMVision" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id=".lF1BcqGAqAACwbv" ModelElementNameAlignment="0" Name=""/>
+				<ProjectElementFontModel BaseType="BrainstormNote" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="18" FontStyle="0" Id=".lF1BcqGAqAACwbw" ModelElementNameAlignment="4" Name=""/>
+				<ProjectElementFontModel BaseType="Component" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="BlF1BcqGAqAACwbx" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="ORMContainer" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="BlF1BcqGAqAACwby" ModelElementNameAlignment="1" Name=""/>
+				<ProjectElementFontModel BaseType="System" Color="-16777216" CompartmentFontName="" CompartmentFontSize="0" CompartmentFontStyle="0" FontName="Dialog" FontSize="11" FontStyle="0" Id="BlF1BcqGAqAACwbz" ModelElementNameAlignment="1" Name=""/>
+			</ModelChildren>
+		</ProjectFormat>
+		<BrainstormNoteTagContainer Id="hlF1BcqGAqAACwb0" Name="">
+			<ModelChildren>
+				<BrainstormNoteTag Documentation_plain="" Id="RlF1BcqGAqAACwb1" Name="Task" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.594" PmLastModified="2016-03-23T00:42:20.316" QualityScore="-1" UserIDLastNumericValue="0">
+					<RealizeTo>
+						<StringValue Id="RlF1BcqGAqAACwb2" Name="BPTask"/>
+					</RealizeTo>
+				</BrainstormNoteTag>
+				<BrainstormNoteTag Documentation_plain="" Id="RlF1BcqGAqAACwb3" Name="Decision" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.594" PmLastModified="2016-03-23T00:42:20.315" QualityScore="-1" UserIDLastNumericValue="0">
+					<RealizeTo>
+						<StringValue Id="xlF1BcqGAqAACwb4" Name="BPGateway"/>
+					</RealizeTo>
+				</BrainstormNoteTag>
+				<BrainstormNoteTag Documentation_plain="" Id="xlF1BcqGAqAACwb5" Name="Participant" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.595" PmLastModified="2016-03-23T00:42:20.349" QualityScore="-1" UserIDLastNumericValue="0">
+					<RealizeTo>
+						<StringValue Id="JlF1BcqGAqAACwb6" Name="BPPool"/>
+						<StringValue Id="JlF1BcqGAqAACwb7" Name="BPLane"/>
+					</RealizeTo>
+				</BrainstormNoteTag>
+				<BrainstormNoteTag Documentation_plain="" Id="JlF1BcqGAqAACwb8" Name="Event" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.596" PmLastModified="2016-03-23T00:42:20.368" QualityScore="-1" UserIDLastNumericValue="0">
+					<RealizeTo>
+						<StringValue Id="JlF1BcqGAqAACwb9" Name="BPIntermediateEvent"/>
+					</RealizeTo>
+				</BrainstormNoteTag>
+			</ModelChildren>
+		</BrainstormNoteTagContainer>
+		<Stereotype Abstract="false" BaseType="UseCase" Documentation_plain="" Id="qVF1BcqGAqAACwb." Leaf="false" Name="UseCase" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.661" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" Root="false" UserIDLastNumericValue="0">
+			<TaggedValueDefinitions>
+				<TaggedValueDefinitionContainer Id="uVF1BcqGAqAACwb_" Name="">
+					<ModelChildren>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="uVF1BcqGAqAACwcA" Name="Level" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.654" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="Summary"/>
+								<Value Value="User"/>
+								<Value Value="Subfunction"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="eVF1BcqGAqAACwcB" Name="Complexity" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.655" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="Low"/>
+								<Value Value="Medium"/>
+								<Value Value="High"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id=".VF1BcqGAqAACwcC" Name="Use Case Status" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.656" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="Name Only"/>
+								<Value Value="Initial"/>
+								<Value Value="Base"/>
+								<Value Value="Complete"/>
+								<Value Value="Deferred"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="BVF1BcqGAqAACwcD" Name="Implementation Status" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.657" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="Scheduled"/>
+								<Value Value="Started"/>
+								<Value Value="Partially Complete"/>
+								<Value Value="Complete"/>
+								<Value Value="Partially Deferred"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="hVF1BcqGAqAACwcE" Name="Preconditions" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.658" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Multi-line Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="RVF1BcqGAqAACwcF" Name="Post-conditions" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.659" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Multi-line Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="xVF1BcqGAqAACwcG" Name="Author" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.660" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="JVF1BcqGAqAACwcH" Name="Assumptions" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.661" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" TagDefStereotype="qVF1BcqGAqAACwb." Type="Multi-line Text" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</TaggedValueDefinitionContainer>
+			</TaggedValueDefinitions>
+		</Stereotype>
+		<Stereotype Abstract="false" BaseType="UseCase" Documentation_plain="" Id="zVF1BcqGAqAACwcI" Leaf="false" Name="Case Story" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.682" PmLastModified="2016-03-23T00:42:20.294" QualityScore="-1" Root="false" UserIDLastNumericValue="0"/>
+		<DBLookupContainer Id="k1F1BcqGAqAACwcK" Name=""/>
+		<Stereotype Abstract="false" BaseType="Requirement" Documentation_plain="" Id="u1F1BcqGAqAACwcM" Leaf="false" Name="requirement" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.731" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" Root="false" UserIDLastNumericValue="0">
+			<TaggedValueDefinitions>
+				<TaggedValueDefinitionContainer Id="J1F1BcqGAqAACwcN" Name="">
+					<ModelChildren>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="p1F1BcqGAqAACwcO" Name="Text" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.726" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" TagDefStereotype="u1F1BcqGAqAACwcM" Type="HTML" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="Z1F1BcqGAqAACwcP" Name="ID" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.727" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" TagDefStereotype="u1F1BcqGAqAACwcM" Type="Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="51F1BcqGAqAACwcQ" Name="source" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.728" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" TagDefStereotype="u1F1BcqGAqAACwcM" Type="Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="F1F1BcqGAqAACwcR" Name="kind" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.729" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" TagDefStereotype="u1F1BcqGAqAACwcM" Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="Functional"/>
+								<Value Value="Performance"/>
+								<Value Value="Interface"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="l1F1BcqGAqAACwcS" Name="verifyMethod" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.730" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" TagDefStereotype="u1F1BcqGAqAACwcM" Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="Analysis"/>
+								<Value Value="Demonstration"/>
+								<Value Value="Inspection"/>
+								<Value Value="Test"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="V1F1BcqGAqAACwcT" Name="risk" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.731" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" TagDefStereotype="u1F1BcqGAqAACwcM" Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="High"/>
+								<Value Value="Medium"/>
+								<Value Value="Low"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="11F1BcqGAqAACwcU" Name="status" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:06.731" PmLastModified="2016-03-23T00:42:20.355" QualityScore="-1" TagDefStereotype="u1F1BcqGAqAACwcM" Type="Enumeration" UserIDLastNumericValue="0">
+							<EnumerationValues>
+								<Value Value="Proposed"/>
+								<Value Value="Approved"/>
+								<Value Value="Rejected"/>
+								<Value Value="Deferred"/>
+								<Value Value="Implemented"/>
+								<Value Value="Mandatory"/>
+								<Value Value="Obsolete"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+					</ModelChildren>
+				</TaggedValueDefinitionContainer>
+			</TaggedValueDefinitions>
+		</Stereotype>
+		<ViewpointLookup Id="L1F1BcqGAqAACwcV" Name="Viewpoint Lookup"/>
+		<ActivitySwimlane2 Documentation_plain="" Id="0o11BcqGAqAACwcm" Name="Swimlane" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:16.555" PmLastModified="2016-03-23T00:42:20.328" QualityScore="-1" UserIDLastNumericValue="0">
+			<VerticalPartitions>
+				<ActivityPartition Idref="ho11BcqGAqAACwcq" Name="Gost"/>
+				<ActivityPartition Idref="no11BcqGAqAACwcw" Name="Administrator"/>
+			</VerticalPartitions>
+			<ModelChildren>
+				<ActivityPartition Documentation_plain="" Id="ho11BcqGAqAACwcq" Name="Gost" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:16.577" PmLastModified="2016-03-23T00:42:20.296" QualityScore="-1" UserIDLastNumericValue="0">
+					<ContainedElements>
+						<InitialNode Idref="z0kNBcqGAqAACwdO" Name=""/>
+						<ActivityAction Idref="880NBcqGAqAACwdX" Name="Izbor jedne od ponuđenih ocjena "/>
+					</ContainedElements>
+					<MasterView>
+						<ActivityPartitionHeader Idref="ho11BcqGAqAACwcp" Name="Gost"/>
+					</MasterView>
+				</ActivityPartition>
+				<ActivityPartition Documentation_plain="" Id="no11BcqGAqAACwcw" Name="Administrator" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:16.601" PmLastModified="2016-03-23T00:42:20.366" QualityScore="-1" UserIDLastNumericValue="0">
+					<ContainedElements>
+						<ActivityAction Idref="OrJNBcqGAqAACwdy" Name="Obracunavanje bodova"/>
+						<ActivityAction Idref="7FtNBcqGAqAACweD" Name="Azuriranje konacne ocjene hotela od strane gostiju"/>
+						<ActivityFinalNode Idref="D47NBcqGAqAACweU" Name=""/>
+					</ContainedElements>
+					<MasterView>
+						<ActivityPartitionHeader Idref="no11BcqGAqAACwcv" Name="Administrator"/>
+					</MasterView>
+				</ActivityPartition>
+				<InitialNode Documentation_plain="" Id="z0kNBcqGAqAACwdO" Leaf="false" MustIsolate="false" Name="" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:37:19.859" PmLastModified="2016-03-23T00:42:20.321" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="dW.NBcqGAqAACwdo" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<InitialNode Idref="j0kNBcqGAqAACwdN" Name=""/>
+					</MasterView>
+				</InitialNode>
+				<ActivityAction Documentation_plain="" Id="880NBcqGAqAACwdX" Leaf="false" MustIsolate="false" Name="Izbor jedne od ponuđenih ocjena " PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:37:28.271" PmLastModified="2016-03-23T00:42:20.302" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="GQXNBcqGAqAACweZ" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="dW.NBcqGAqAACwdo" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="880NBcqGAqAACwdW" Name="Izbor jedne od ponuđenih ocjena "/>
+					</MasterView>
+				</ActivityAction>
+				<ActivityAction Documentation_plain="" Id="OrJNBcqGAqAACwdy" Leaf="false" MustIsolate="false" Name="Obracunavanje bodova" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:39:13.116" PmLastModified="2016-03-23T00:42:20.289" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="PcPNBcqGAqAACwed" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="GQXNBcqGAqAACweZ" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="OrJNBcqGAqAACwdx" Name="Obracunavanje bodova"/>
+					</MasterView>
+				</ActivityAction>
+				<ActivityAction Documentation_plain="" Id="7FtNBcqGAqAACweD" Leaf="false" MustIsolate="false" Name="Azuriranje konacne ocjene hotela od strane gostiju" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:39:49.175" PmLastModified="2016-03-23T00:42:20.292" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="8dvNBcqGAqAACweh" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="PcPNBcqGAqAACwed" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="7FtNBcqGAqAACweC" Name="Azuriranje konacne ocjene hotela od strane gostiju"/>
+					</MasterView>
+				</ActivityAction>
+				<ActivityFinalNode Documentation_plain="" Id="D47NBcqGAqAACweU" Leaf="false" MustIsolate="false" Name="" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:40:28.016" PmLastModified="2016-03-23T00:42:20.316" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<ToSimpleRelationships>
+						<ControlFlow Idref="8dvNBcqGAqAACweh" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityFinalNode Idref="D47NBcqGAqAACweT" Name=""/>
+					</MasterView>
+				</ActivityFinalNode>
+			</ModelChildren>
+			<MasterView>
+				<ActivitySwimlane2 Idref="0o11BcqGAqAACwcl" Name="Swimlane"/>
+			</MasterView>
+		</ActivitySwimlane2>
+		<ModelRelationshipContainer Documentation_plain="" Id="dhStBcqGAqAACwfD" Name="relationships" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:42:20.270" PmLastModified="2016-03-23T00:42:20.330" QualityScore="-1" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<ModelRelationshipContainer Documentation_plain="" Id="LhStBcqGAqAACwfE" Name="ControlFlow" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:42:20.276" PmLastModified="2016-03-23T00:42:20.306" QualityScore="-1" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<ControlFlow Documentation_plain="" From="z0kNBcqGAqAACwdO" Guard="" Id="dW.NBcqGAqAACwdo" Leaf="false" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:38:50.926" PmLastModified="2016-03-23T00:42:20.292" QualityScore="-1" To="880NBcqGAqAACwdX" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+							<MasterView>
+								<ControlFlow Idref="rW.NBcqGAqAACwdp"/>
+							</MasterView>
+						</ControlFlow>
+						<ControlFlow Documentation_plain="" From="880NBcqGAqAACwdX" Guard="" Id="GQXNBcqGAqAACweZ" Leaf="false" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:40:39.960" PmLastModified="2016-03-23T00:42:20.289" QualityScore="-1" To="OrJNBcqGAqAACwdy" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+							<MasterView>
+								<ControlFlow Idref="BQXNBcqGAqAACwea"/>
+							</MasterView>
+						</ControlFlow>
+						<ControlFlow Documentation_plain="" From="OrJNBcqGAqAACwdy" Guard="" Id="PcPNBcqGAqAACwed" Leaf="false" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:40:48.956" PmLastModified="2016-03-23T00:42:20.289" QualityScore="-1" To="7FtNBcqGAqAACweD" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+							<MasterView>
+								<ControlFlow Idref="I8PNBcqGAqAACwee"/>
+							</MasterView>
+						</ControlFlow>
+						<ControlFlow Documentation_plain="" From="7FtNBcqGAqAACweD" Guard="" Id="8dvNBcqGAqAACweh" Leaf="false" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:40:55.055" PmLastModified="2016-03-23T00:42:20.292" QualityScore="-1" To="D47NBcqGAqAACweU" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+							<MasterView>
+								<ControlFlow Idref="advNBcqGAqAACwei"/>
+							</MasterView>
+						</ControlFlow>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+			</ModelChildren>
+		</ModelRelationshipContainer>
+	</Models>
+	<Diagrams>
+		<ActivityDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorStyle="1" ControlFlowDisplayOption="0" DecisionMergeNodeConnectionPointStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="605" HideEmptyTaggedValues="false" Id="Rcl1BcqGAqAACwcb" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" Maximized="true" ModelElementNameAlignment="4" Name="Activity Diagram1" ObjectNodeShowInStates="2" ObjectNodeShowType="true" PaintConnectorThroughLabel="1" PmAuthor="Medina" PmCreateDateTime="2016-03-23T00:35:08.962" PmLastModified="2016-03-23T22:14:36.385" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActionCallBehaviorOption="1" ShowActivityEdgeWeight="true" ShowActivityStateNodeCaption="65535" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowPartitionHeader="0" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="1278" X="0" Y="0" ZoomRatio="1.0" _alwaysShowReferenceAndSubdiagramResource="true" _globalPaletteOption="true">
+			<Connectors>
+				<ControlFlow Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ActivityDiagram" Foreground="rgb(0, 0, 0)" From="j0kNBcqGAqAACwdN" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="125" Id="rW.NBcqGAqAACwdp" MetaModelElement="dW.NBcqGAqAACwdo" Model="dW.NBcqGAqAACwdo" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="880NBcqGAqAACwdW" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="350" Y="74" ZOrder="2">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="400" Y="136"/>
+					<Points>
+						<Point X="400.0" Y="124.0"/>
+						<Point X="400.0" Y="149.0"/>
+					</Points>
+				</ControlFlow>
+				<ControlFlow Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ActivityDiagram" Foreground="rgb(0, 0, 0)" From="880NBcqGAqAACwdW" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="BQXNBcqGAqAACwea" MetaModelElement="GQXNBcqGAqAACweZ" Model="GQXNBcqGAqAACweZ" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="OrJNBcqGAqAACwdx" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="257" X="420" Y="122" ZOrder="4">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="540" Y="172"/>
+					<Points>
+						<Point X="470.0" Y="172.0"/>
+						<Point X="627.0" Y="172.0"/>
+					</Points>
+				</ControlFlow>
+				<ControlFlow Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ActivityDiagram" Foreground="rgb(0, 0, 0)" From="OrJNBcqGAqAACwdx" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="150" Id="I8PNBcqGAqAACwee" MetaModelElement="PcPNBcqGAqAACwed" Model="PcPNBcqGAqAACwed" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="7FtNBcqGAqAACweC" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="639" Y="141" ZOrder="6">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="689" Y="216"/>
+					<Points>
+						<Point X="689.0" Y="191.0"/>
+						<Point X="689.0" Y="241.0"/>
+					</Points>
+				</ControlFlow>
+				<ControlFlow Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ActivityDiagram" Foreground="rgb(0, 0, 0)" From="7FtNBcqGAqAACweC" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="152" Id="advNBcqGAqAACwei" MetaModelElement="8dvNBcqGAqAACweh" Model="8dvNBcqGAqAACweh" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="D47NBcqGAqAACweT" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="641" Y="232" ZOrder="8">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="691" Y="308"/>
+					<Points>
+						<Point X="691.0" Y="282.0"/>
+						<Point X="691.0" Y="334.0"/>
+					</Points>
+				</ControlFlow>
+			</Connectors>
+			<Shapes>
+				<ActivitySwimlane2 Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="331" Id="0o11BcqGAqAACwcl" MetaModelElement="0o11BcqGAqAACwcm" Model="0o11BcqGAqAACwcm" ModelElementNameAlignment="9" Name="Swimlane" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitPartitionHeadersHeight="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" ValidatePartitionsForConvert="false" Width="581" X="256" Y="65" ZOrder="18">
+					<VerticalPartitionIds>
+						<Value Value="ho11BcqGAqAACwcp"/>
+						<Value Value="no11BcqGAqAACwcv"/>
+					</VerticalPartitionIds>
+					<CompartmentIds>
+						<Value Value="To11BcqGAqAACwct"/>
+						<Value Value="YY11BcqGAqAACwcz"/>
+					</CompartmentIds>
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="2.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="331" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="581" X="256" Y="65"/>
+					<DiagramElementChildren>
+						<ActivitySwimlane2Compartment Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="316" Id="YY11BcqGAqAACwcz" ModelElementNameAlignment="9" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" VerticalPartitionId="no11BcqGAqAACwcv" Width="292" X="545" Y="80" ZOrder="10">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="2.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="316" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="292" X="0" Y="0"/>
+							<DiagramElementChildren>
+								<ActivityFinalNode Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="1" CreatorDiagramType="ActivityDiagram" Foreground="rgb(0, 0, 0)" Height="20" Id="D47NBcqGAqAACweT" MetaModelElement="D47NBcqGAqAACweU" Model="D47NBcqGAqAACweU" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="20" X="681" Y="333" ZOrder="0">
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="681" Y="353"/>
+									<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+								</ActivityFinalNode>
+								<ActivityAction Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="40" Id="7FtNBcqGAqAACweC" MetaModelElement="7FtNBcqGAqAACweD" Model="7FtNBcqGAqAACweD" ModelElementNameAlignment="9" Name="Azuriranje konacne ocjene hotela od strane gostiju" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowCallBehaviorOption="0" ShowStereotypeIconName="0" Width="180" X="601" Y="242" ZOrder="2">
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="180" X="0" Y="0"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</ActivityAction>
+								<ActivityAction Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="40" Id="OrJNBcqGAqAACwdx" MetaModelElement="OrJNBcqGAqAACwdy" Model="OrJNBcqGAqAACwdy" ModelElementNameAlignment="9" Name="Obracunavanje bodova" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowCallBehaviorOption="0" ShowStereotypeIconName="0" Width="126" X="628" Y="151" ZOrder="4">
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="126" X="0" Y="0"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</ActivityAction>
+							</DiagramElementChildren>
+							<FillColor Color="rgba(255, 255, 255, 0.0)" Style="1" Transparency="100" Type="1"/>
+						</ActivitySwimlane2Compartment>
+						<ActivityPartitionHeader Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="15" Horizontal="false" Id="no11BcqGAqAACwcv" MetaModelElement="no11BcqGAqAACwcw" Model="no11BcqGAqAACwcw" ModelElementNameAlignment="9" Name="Administrator" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="292" X="545" Y="65" ZOrder="12">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="2.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="InsideNorth" Visible="true" Width="292" X="0" Y="0"/>
+							<FillColor Color="rgba(255, 255, 255, 0.0)" Style="1" Transparency="100" Type="1"/>
+						</ActivityPartitionHeader>
+						<ActivitySwimlane2Compartment Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="316" Id="To11BcqGAqAACwct" ModelElementNameAlignment="9" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" VerticalPartitionId="ho11BcqGAqAACwcp" Width="289" X="256" Y="80" ZOrder="14">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="2.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="316" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="289" X="0" Y="0"/>
+							<DiagramElementChildren>
+								<ActivityAction Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="43" Id="880NBcqGAqAACwdW" MetaModelElement="880NBcqGAqAACwdX" Model="880NBcqGAqAACwdX" ModelElementNameAlignment="9" Name="Izbor jedne od ponuđenih ocjena " OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowCallBehaviorOption="0" ShowStereotypeIconName="0" Width="140" X="330" Y="150" ZOrder="6">
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="43" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="140" X="0" Y="0"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</ActivityAction>
+								<InitialNode Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="1" CreatorDiagramType="ActivityDiagram" Foreground="rgb(0, 0, 0)" Height="20" Id="j0kNBcqGAqAACwdN" MetaModelElement="z0kNBcqGAqAACwdO" Model="z0kNBcqGAqAACwdO" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="40" X="380" Y="105" ZOrder="8">
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="390" Y="125"/>
+									<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+								</InitialNode>
+							</DiagramElementChildren>
+							<FillColor Color="rgba(255, 255, 255, 0.0)" Style="1" Transparency="100" Type="1"/>
+						</ActivitySwimlane2Compartment>
+						<ActivityPartitionHeader Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="15" Horizontal="false" Id="ho11BcqGAqAACwcp" MetaModelElement="ho11BcqGAqAACwcq" Model="ho11BcqGAqAACwcq" ModelElementNameAlignment="9" Name="Gost" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="289" X="256" Y="65" ZOrder="16">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="2.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="InsideNorth" Visible="true" Width="289" X="0" Y="0"/>
+							<FillColor Color="rgba(255, 255, 255, 0.0)" Style="1" Transparency="100" Type="1"/>
+						</ActivityPartitionHeader>
+					</DiagramElementChildren>
+					<FillColor Color="rgba(255, 255, 255, 0.0)" Style="1" Transparency="100" Type="1"/>
+				</ActivitySwimlane2>
+			</Shapes>
+		</ActivityDiagram>
+	</Diagrams>
+</Project>
