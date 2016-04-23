@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-14T00:21:51.310</Modified>
+      <Modified>2016-04-23T19:20:30.265</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\bin\x86\Debug\HotelskiSmjestaj.exe">
       <PackagePath>entrypoint\HotelskiSmjestaj.exe</PackagePath>
-      <Modified>2016-03-14T00:21:46.802</Modified>
+      <Modified>2016-04-23T19:20:22.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -456,49 +456,49 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2016-03-14T00:21:10.740</Modified>
+      <Modified>2016-04-23T18:55:22.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-03-14T00:19:34.979</Modified>
+      <Modified>2016-04-23T18:55:22.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-04-23T18:55:22.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-04-23T18:55:22.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-04-23T18:55:22.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-04-23T18:55:22.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-04-23T18:55:22.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-04-23T18:55:22.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-04-23T18:55:22.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\bin\x86\Debug\HotelskiSmjestaj.xr.xml">
       <PackagePath>HotelskiSmjestaj.xr.xml</PackagePath>
-      <Modified>2016-03-14T00:21:45.372</Modified>
+      <Modified>2016-04-23T18:55:30.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -506,11 +506,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-14T00:21:49.208</Modified>
+      <Modified>2016-04-23T19:20:28.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\bin\x86\Debug\Core\HotelskiSmjestaj.exe">
       <PackagePath>HotelskiSmjestaj.exe</PackagePath>
-      <Modified>2016-03-14T00:21:51.296</Modified>
+      <Modified>2016-04-23T19:20:30.249</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
