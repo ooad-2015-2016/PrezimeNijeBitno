@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="aecc4baf-d224-4845-b64a-407b000488da"
-    Publisher="CN=Elvira"
+    Name="48836b66-36fa-469c-9292-9e5bef5310ff"
+    Publisher="CN=User"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="aecc4baf-d224-4845-b64a-407b000488da" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="48836b66-36fa-469c-9292-9e5bef5310ff" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>HotelskiSmjestaj</DisplayName>
-    <PublisherDisplayName>Elvira</PublisherDisplayName>
+    <PublisherDisplayName>User</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

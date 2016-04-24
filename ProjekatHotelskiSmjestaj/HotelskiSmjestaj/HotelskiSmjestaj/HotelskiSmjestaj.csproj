@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{7A524976-AA67-420B-84EC-1DF4570858AE}</ProjectGuid>
+    <ProjectGuid>{8325AE27-6827-4E9F-8427-474A5DD205FB}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HotelskiSmjestaj</RootNamespace>
@@ -98,9 +98,19 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Hotel\Models\Blanko.xaml.cs">
+      <DependentUpon>Blanko.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel\Models\Rezervacija.cs" />
+    <Compile Include="Hotel\Models\RezervacijaDbContext.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160424173721_InitialMigration.cs" />
+    <Compile Include="Migrations\20160424173721_InitialMigration.designer.cs">
+      <DependentUpon>20160424173721_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\RezervacijaDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -124,10 +134,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Hotel\Models\Blanko.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hotel\Views\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -11,6 +11,7 @@
       <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="HotelskiSmjestaj.Hotel.Models.Blanko" />
     <RootType FullName="HotelskiSmjestaj.MainPage" />
   </Roots.RootTypes>
 </Roots>

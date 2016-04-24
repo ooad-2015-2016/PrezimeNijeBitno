@@ -1,1 +1,1 @@
-C:\Users\Elvira\Desktop\OOAD\PrezimeNijeBitno\ProjekatHotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj.csproj;x86
+C:\Users\User\Desktop\Another try\HotelskiSmjestaj\HotelskiSmjestaj\HotelskiSmjestaj.csproj;x86

@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="aecc4baf-d224-4845-b64a-407b000488da" Publisher="CN=Elvira" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="aecc4baf-d224-4845-b64a-407b000488da" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="48836b66-36fa-469c-9292-9e5bef5310ff" Publisher="CN=User" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="48836b66-36fa-469c-9292-9e5bef5310ff" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>HotelskiSmjestaj</DisplayName>
-    <PublisherDisplayName>Elvira</PublisherDisplayName>
+    <PublisherDisplayName>User</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -37,7 +37,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.10586.0 (th2_release.151029-1700)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.24720.0" />
-    <build:Item Name="ProjectGUID" Value="{7A524976-AA67-420B-84EC-1DF4570858AE}" />
+    <build:Item Name="ProjectGUID" Value="{8325AE27-6827-4E9F-8427-474A5DD205FB}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.24720.0" />
