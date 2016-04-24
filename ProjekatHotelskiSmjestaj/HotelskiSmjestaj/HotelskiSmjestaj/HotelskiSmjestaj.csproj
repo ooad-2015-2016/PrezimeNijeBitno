@@ -98,6 +98,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BazaHotela\Models\DefaultPodaci.cs" />
+    <Compile Include="BazaHotela\Models\Hotel.cs" />
+    <Compile Include="BazaHotela\Models\HotelDbContext.cs" />
     <Compile Include="Hotel\Models\Blanko.xaml.cs">
       <DependentUpon>Blanko.xaml</DependentUpon>
     </Compile>
@@ -110,6 +113,11 @@
     <Compile Include="Migrations\20160424173721_InitialMigration.designer.cs">
       <DependentUpon>20160424173721_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160424214651_InitialMigration2.cs" />
+    <Compile Include="Migrations\20160424214651_InitialMigration2.designer.cs">
+      <DependentUpon>20160424214651_InitialMigration2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\HotelDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\RezervacijaDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -144,7 +152,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BazaHotela\Views\" />
     <Folder Include="Hotel\Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="SQLite.UWP.2015, Version=3.12.2">
+      <Name>SQLite for Universal Windows Platform</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

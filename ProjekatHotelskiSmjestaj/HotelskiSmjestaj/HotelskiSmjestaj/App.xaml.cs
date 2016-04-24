@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HotelskiSmjestaj.BazaHotela.Models;
+using Microsoft.Data.Entity;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,9 +30,14 @@ namespace HotelskiSmjestaj
         /// </summary>
         public App()
         {
-            Microsoft.ApplicationInsights.WindowsAppInitializer.InitializeAsync(
-                Microsoft.ApplicationInsights.WindowsCollectors.Metadata |
-                Microsoft.ApplicationInsights.WindowsCollectors.Session);
+            using (var db = new HotelDbContext())
+            {
+                db.Database.ApplyMigrations();
+                DefaultPodaci.Initialize(db);
+            }
+                Microsoft.ApplicationInsights.WindowsAppInitializer.InitializeAsync(
+                    Microsoft.ApplicationInsights.WindowsCollectors.Metadata |
+                    Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
