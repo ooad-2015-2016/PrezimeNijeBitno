@@ -102,6 +102,19 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Smjestaj\Models\Administrator.cs" />
+    <Compile Include="Smjestaj\Models\Apartman.cs" />
+    <Compile Include="Smjestaj\Models\DvokrevetnaSoba.cs" />
+    <Compile Include="Smjestaj\Models\Gost.cs" />
+    <Compile Include="Smjestaj\Models\Grupacija.cs" />
+    <Compile Include="Smjestaj\Models\HistorijaRezervacija.cs" />
+    <Compile Include="Smjestaj\Models\Hotel.cs" />
+    <Compile Include="Smjestaj\Models\HotelskePogodnosti.cs" />
+    <Compile Include="Smjestaj\Models\HotelskoOsoblje.cs" />
+    <Compile Include="Smjestaj\Models\JednokrevetnaSoba.cs" />
+    <Compile Include="Smjestaj\Models\Osoba.cs" />
+    <Compile Include="Smjestaj\Models\Rezervacija.cs" />
+    <Compile Include="Smjestaj\Models\Soba.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -128,6 +141,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Smjestaj\Views\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
