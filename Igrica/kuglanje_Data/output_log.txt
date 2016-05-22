@@ -1,0 +1,169 @@
+Initialize engine version: 5.3.5f1 (960ebf59018a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740M             (ID=0x1292)
+    Vendor:   NVIDIA
+    VRAM:     1997 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.078 seconds
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Amina\Desktop\Bowling-Game-PC-master\kuglanje_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 58.533783 ms
+Scene 'Options' (-1) couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 520)
+
+Scene 'Options' (-1) couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 520)
+
+Scene 'Options' (-1) couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 520)
+
+Scene 'Options' (-1) couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 520)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'Plane') is missing!
+ 
+(Filename:  Line: 1655)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 21.431908 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 431.
+Total: 0.300770 ms (FindLiveObjects: 0.040608 ms CreateObjectMapping: 0.026328 ms MarkObjects: 0.221338 ms  DeleteObjects: 0.011156 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.609286 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 196.
+Total: 0.664461 ms (FindLiveObjects: 0.031683 ms CreateObjectMapping: 0.027667 ms MarkObjects: 0.244097 ms  DeleteObjects: 0.359675 ms)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'Plane') is missing!
+ 
+(Filename:  Line: 1655)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.394928 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 437.
+Total: 0.290060 ms (FindLiveObjects: 0.035253 ms CreateObjectMapping: 0.021866 ms MarkObjects: 0.222677 ms  DeleteObjects: 0.009817 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+The referenced script on this Behaviour (Game Object 'bowlingarrow') is missing!
+ 
+(Filename:  Line: 1655)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 191c -> priority: 1 
